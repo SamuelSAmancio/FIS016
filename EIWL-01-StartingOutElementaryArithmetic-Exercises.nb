@@ -1,0 +1,1555 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     70985,       1545]
+NotebookOptionsPosition[     29291,        674]
+NotebookOutlinePosition[     65521,       1448]
+CellTagsIndexPosition[     65478,       1445]
+WindowTitle->1 | Exercises: Starting Out: Elementary Arithmetic
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ "Compute ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", "+", "2", "+", "3"}], TraditionalForm]],ExpressionUUID->
+  "5fc15d3a-0311-459b-a703-4d7e8928197d"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"1.1\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"41cbe937-bbec-4359-b995-f34fd745b976"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"895672f8-220c-47eb-af6e-32023d03ebc4"],
+
+Cell[BoxData["6"], "ExerciseOutput",ExpressionUUID->"4879beca-af09-4c2e-a127-dc54bf52ab6e"]
+}, {1}]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "+", "2", "+", "3"}]], "Input",ExpressionUUID->"d7294a11-32d7-465c-b5d3-3a76a2a5cc55"],
+
+Cell[BoxData["6"], "Output",ExpressionUUID->"f9358e49-1eff-4f6e-9ff3-4c3cd978a011"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"40fd23c0-8eb6-4ee0-9f92-c84039fb63eb"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Add the numbers ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", ",", "2", ",", "3", ",", "4", ",", "5"}], TraditionalForm]],
+  ExpressionUUID->"53486ecc-0f48-495c-8226-5a52408a5845"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"1.2\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"765da2ea-8f5c-4a3a-a2bf-d86511df5516"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"3daca132-372a-468f-9145-def7913e04c2"],
+
+Cell[BoxData["15"], "ExerciseOutput",ExpressionUUID->"cf38ce35-1aca-49df-9fa7-d94bc8e8606d"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"1", "+", "2", "+", "3", "+", "4", "+", "5"}]], "Input",ExpressionUUI\
+D->"722d8584-7abb-440b-86a3-c695ca4a3834"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"c98a91fa-93a1-477b-9fd7-93b474b6c2cc"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Multiply the numbers ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"1", ",", "2", ",", "3", ",", "4", ",", "5"}], TraditionalForm]],
+  ExpressionUUID->"abce72bc-4d3d-4861-80ff-46a0ebd50bc4"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"1.3\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"dc8c3cdb-571d-4589-b722-10c11a96b9e2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"17b227f0-f97f-4ddf-9f23-4011120c6700"],
+
+Cell[BoxData["120"], "ExerciseOutput",ExpressionUUID->"d0453484-7f91-4b91-a127-d69cc32d0d56"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"1", " ", "2", " ", "3", " ", "4", " ", "5"}]], "Input",ExpressionUUI\
+D->"8b96de83-4a75-4539-bcdd-d53cf4f9d143"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"1384b230-e243-4731-8601-fc4adbbcf22b"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Compute 5 squared (i.e. ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"5", "\[Times]", "5"}], TraditionalForm]],ExpressionUUID->
+  "45b26c73-c73c-4e7c-850e-501f38e3d3dd"],
+ " or 5 raised to the power 2)."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"1.4\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"8813d41e-3aa0-4ff8-8c64-65c13f2c8d1a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"c11879c7-b2df-4ee3-a4d1-476ca4870c50"],
+
+Cell[BoxData["25"], "ExerciseOutput",ExpressionUUID->"5f011eb3-451d-4bc9-80aa-993506b45eab"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"5", "^", "2"}]], "Input",ExpressionUUID->"ac63b376-a71e-41ed-a976-d41c680096b2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"05bc4ace-9e49-4354-98d5-e89e3bd50ac4"],
+
+Cell[CellGroupData[{
+
+Cell["Compute 3 raised to the fourth power.", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"1.5\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"64fc7e3e-36a5-46c6-87e3-0911a6bdaafd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"56b2bf9c-e0c4-4198-a412-a9501328fe85"],
+
+Cell[BoxData["81"], "ExerciseOutput",ExpressionUUID->"4a782b8e-3549-4f9f-834a-fd8d9baee6c6"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"3", "^", "4"}]], "Input",ExpressionUUID->"26b32876-9e39-43c9-8a67-bef5b1272ea9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"2500800c-d79f-465c-885d-dff5de253158"],
+
+Cell[CellGroupData[{
+
+Cell["Compute 10 raised to the power 12 (a trillion).", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"1.6\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"18c56ef5-b02a-41cf-86b7-74729a56c01e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"30b54bc6-6718-40fb-a2aa-dfc7801f360d"],
+
+Cell[BoxData["1000000000000"], "ExerciseOutput",ExpressionUUID->"4ca78d83-7cbb-40ba-91c0-859c8458b63d"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"10", "^", "12"}]], "Input",ExpressionUUID->"009c631d-23f1-4396-a9c5-831dd6b8c520"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"76a90fa4-8ea2-4222-b68f-6d9c01b3f821"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Compute 3 raised to the power ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"7", "\[Times]", "8"}], TraditionalForm]],ExpressionUUID->
+  "97f03eb8-6a5d-4078-86b7-1373ba83086e"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"1.7\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"00917dd5-ec85-4e69-ac8d-bcc3ff747f39"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"627fd5c9-ad2b-4c52-a6d3-23adc8e92aa8"],
+
+Cell[BoxData["523347633027360537213511521"], "ExerciseOutput",ExpressionUUID->"20885980-de4a-42cb-817c-841a7eace4b4"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"3", "^", 
+  RowBox[{"(", 
+   RowBox[{"7", " ", "8"}], ")"}]}]], "Input",ExpressionUUID->"18a6fec0-ecad-\
+430c-a284-f73c361edc4a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"7179c827-c768-42ad-89f8-a06f940537a7"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Add parentheses to ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"4", "-", 
+    RowBox[{"2", "*", "3"}], "+", "4"}], TraditionalForm]],ExpressionUUID->
+  "a1cda5d7-b81f-41bd-94ff-9c8783f41950"],
+ " to make it 14."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"1.8\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"a0ce1c26-7bc1-4074-8d8f-4fda4416e725"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"e58db18f-b98a-4842-8e60-5973a399b1f2"],
+
+Cell[BoxData["14"], "ExerciseOutput",ExpressionUUID->"2b71d69e-a724-4f77-a0e7-5917e0b0b79b"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"4", "-", "2"}], ")"}], 
+  RowBox[{"(", 
+   RowBox[{"3", "+", "4"}], ")"}]}]], "Input",ExpressionUUID->"2e5df855-435d-\
+4902-905b-3c9e0c9e1326"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"5778ff84-8297-48f0-b128-23ae3f6650e7"],
+
+Cell[CellGroupData[{
+
+Cell["Compute twenty-nine thousand multiplied by seventy-three.", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"1.9\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"c6ea9479-9f40-4927-a6b8-60aab7eb9c1c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"18d2d0c3-bef9-4cb5-bcbd-c3fb46df253d"],
+
+Cell[BoxData["2117000"], "ExerciseOutput",ExpressionUUID->"1bc19b04-2175-4b7c-a4f9-c209fcaeecad"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"29000", " ", "73"}]], "Input",ExpressionUUID->"27eea2fa-2b13-47a9-a9de-e40e73b98146"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"4df80b5f-d6c4-481e-9762-9b2f76794fa8"]
+},
+Editable->True,
+Saveable->True,
+ScreenStyleEnvironment->"Working",
+WindowToolbars->{},
+CellInsertionPointCell->None,
+WindowSize->{1024, 768},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"1 | Exercises: Starting Out: Elementary Arithmetic",
+DockedCells->Cell[
+  TagBox[
+   GridBox[{{
+      PaneBox[
+      "\"1 | Exercises: Starting Out: Elementary Arithmetic\"", ImageSize -> 
+       Full, ImageMargins -> {{15, 10}, {4, 0}}], 
+      ButtonBox[
+      "\"Download Notebook \[RightGuillemet]\"", ButtonFunction :> 
+       FrontEndExecute[{
+          NotebookLocate[{
+            URL[
+             URLBuild[{$CloudBase, "files", 
+               Information[$EvaluationCloudObject, "UUID"]}, {
+              "contentDisposition" -> "attachment"}]], None}]}], Method -> 
+       "Queued", Appearance -> None, 
+       BaseStyle -> {"ExerciseDockedCell", FontSize -> 13}, Evaluator -> 
+       Automatic]}, {
+      PaneBox[
+       StyleBox[
+        TemplateBox[{"\"Correctly answer \"", 
+          StyleBox["\"50%\"", FontWeight -> Bold, StripOnInput -> False], 
+          "\" of labeled exercises (\"", 
+          GraphicsBox[{
+            Thickness[0.037037037037037035`], 
+            FaceForm[{
+              RGBColor[1., 0.5019607843137255, 0.], 
+              Opacity[1.]}], 
+            
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+              3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{0, 2, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+              "], {{14.099998474121094`, 12.299999237060547`}, {
+              9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+              15.799999237060547`}, {6.299999237060547, 
+              20.099998474121094`}, {6.299999237060547, 
+              24.399999618530273`}, {9.799999237060547, 
+              27.899999618530273`}, {14.099998474121094`, 
+              27.899999618530273`}, {18.400001525878906`, 
+              27.899999618530273`}, {21.900001525878906`, 
+              24.399999618530273`}, {21.900001525878906`, 
+              20.099998474121094`}, {21.900001525878906`, 
+              15.799999237060547`}, {18.400001525878906`, 
+              12.299999237060547`}, {14.099998474121094`, 
+              12.299999237060547`}}, {{14.099998474121094`, 
+              26.19999885559082}, {10.700000762939453`, 26.19999885559082}, {
+              8., 23.5}, {8., 20.099998474121094`}, {8., 
+              16.700000762939453`}, {10.700000762939453`, 14.}, {
+              14.099998474121094`, 14.}, {17.5, 14.}, {20.200000762939453`, 
+              16.700000762939453`}, {20.200000762939453`, 
+              20.099998474121094`}, {20.200000762939453`, 23.5}, {17.5, 
+              26.19999885559082}, {14.099998474121094`, 
+              26.19999885559082}}, {{17.200000762939453`, 
+              10.39999771118164}, {15.5, 7.599998474121094}, {
+              18.599998474121094`, 0.}, {20.700000762939453`, 
+              2.0999984741210938`}, {23.900001525878906`, 
+              2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+              17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+              8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+              7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 
+              0.}, {12.5, 7.599998474121094}, {10.799999237060547`, 
+              10.39999771118164}, {6.900001525878906, 
+              8.700000762939453}}}]}, {
+           ImageSize -> {Automatic, 20}, AspectRatio -> Automatic, 
+            ImageSize -> {27., 35.}, 
+            PlotRange -> {{0., 27.}, {0., 34.29999923706055}}}], 
+          "\") to earn Level 1 certification.\""}, "RowDefault"], 
+        "ExerciseFirstCell", CellMargins -> {{55, 10}, {30, 6}}, FontSize -> 
+        14, FontColor -> RGBColor[
+          Rational[64, 255], 
+          Rational[25, 51], 
+          Rational[128, 255]], ExpressionUUID -> 
+        "3b1d133c-0aba-4ff3-8d23-e1e708b261d9", StripOnInput -> False], 
+       ImageSize -> Full, ImageMargins -> {{45, 10}, {4, 0}}], 
+      "\[SpanFromLeft]"}}, GridBoxAlignment -> {"Columns" -> {Left, Right}}, 
+    AutoDelete -> False, GridBoxFrame -> {"Columns" -> None, "Rows" -> None}, 
+    GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+    BaseStyle -> "ExerciseDockedCell"], "TextGrid"], "ExerciseDockedCell", 
+  ShowCellBracket -> False, FontSize -> 18, FontColor -> RGBColor[
+    Rational[22, 255], 
+    Rational[8, 51], 
+    Rational[21, 85]], Background -> RGBColor[
+    Rational[244, 255], 
+    Rational[50, 51], 1], ExpressionUUID -> 
+  "909a138a-6ed3-4e81-ac47-30f1ac325371"],
+ShowCellBracket->False,
+TaggingRules-><|
+ "SolutionResponseText" -> <|
+   "1.2" -> "", "1.3" -> "", "1.7" -> "", "1.9" -> "", "1.1" -> 
+    "Please include the input needed to get this result.", "1.4" -> 
+    "Your answer is correct, but is it just copied from the answer key?", 
+    "1.5" -> "Your answer is correct, but is it just copied from the answer \
+key?", "1.6" -> 
+    "Your answer is correct, but is it just copied from the answer key?", 
+    "1.8" -> ""|>|>,
+CellContext->CellGroup,
+ShowCellTags->False,
+TrackCellChangeTimes->False,
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Notebook"], PageWidth -> WindowWidth, CellLabelAutoDelete -> 
+    True, ShowSyntaxStyles -> True, MenuSortingValue -> None], 
+   Cell[
+    CellGroupData[{
+      Cell["Custom Styles", "Section"], 
+      Cell[
+       CellGroupData[{
+         Cell["General", "Subsection"], 
+         Cell[
+          StyleData["Subsubsubsection"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}, FontSize -> 16, 
+          FontWeight -> "SemiBold", FontColor -> RGBColor[
+            Rational[244, 255], 
+            Rational[48, 85], 
+            Rational[5, 51]]], 
+         Cell[
+          StyleData["Subsubsubsubsection"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}, FontSize -> 14, 
+          FontWeight -> "SemiBold", 
+          FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> GrayLevel[
+            Rational[4, 15]]], 
+         Cell[
+          StyleData["Text"], CellMargins -> {{80, 10}, {4, 18}}, FontSize -> 
+          15, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Reference"], CellMargins -> {{80, 10}, {4, 18}}, 
+          FontSize -> 15, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["MathCaption"], CellMargins -> {{27, 12}, {2, 24}}, 
+          FontFamily -> "Source Sans Pro", FontSize -> 15, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["CodeText"], CellMargins -> {{80, 10}, {4, 18}}, FontSize -> 
+          15], 
+         Cell[
+          StyleData["Author"], CellMargins -> {{27, Inherited}, {6, 16}}], 
+         Cell[
+          StyleData["Affiliation"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}], 
+         Cell[
+          StyleData["Link"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperLink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["Hyperlink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["FunctionLink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperlinkActionNew"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperlinkActive"], FontColor -> RGBColor[
+            Rational[91, 255], 
+            Rational[178, 255], 
+            Rational[166, 255]]], 
+         Cell[
+          StyleData["Item"], CellDingbat -> 
+          StyleBox[
+           "\[FilledSmallSquare]", Alignment -> Baseline, FontColor -> 
+            RGBColor[0.9, 0.4, 0.]], CellMargins -> {{40, Inherited}, {3, 3}},
+           FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Subitem"], CellDingbat -> 
+          StyleBox[
+           "\[FilledSmallSquare]", Alignment -> Baseline, FontColor -> 
+            RGBColor[
+             0.9568627450980393, 0.5647058823529412, 0.09803921568627451]], 
+          CellMargins -> {{60, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["Subsubitem"], CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.65, 0.65, 0.65]], 
+          CellMargins -> {{80, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["ItemNumbered"], CellMargins -> {{45, Inherited}, {3, 3}},
+           LineSpacing -> {1, -5}, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemNumbered"], 
+          CellMargins -> {{77, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemNumbered"], 
+          CellMargins -> {{107, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ItemRomanNumbered", StyleDefinitions -> StyleData["ItemNumbered"]],
+           CellDingbat -> Cell[
+            TextData[{
+              CounterBox[
+              "ItemRomanNumbered", CounterFunction -> RomanNumeral], "."}], 
+            FontWeight -> Bold], CounterIncrements -> "ItemRomanNumbered", 
+          FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["ItemParagraph"], 
+          CellMargins -> {{40, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemParagraph"], 
+          CellMargins -> {{60, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemParagraph"], 
+          CellMargins -> {{80, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["Input"], CellFrame -> 1, ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}, 
+          CellFrameMargins -> {{10, 0}, {3, 3}}, CellFrameColor -> 
+          GrayLevel[0.7], CellFrameLabels -> {{None, None}, {
+             
+             DynamicModuleBox[{$CellContext`exerciseCheck = 
+               Automatic, $CellContext`buttonLabel = "CHECK MY SOLUTION"}, 
+              DynamicBox[
+               ToBoxes[
+                Pane[
+                 Column[
+                  Flatten[{
+                    Graphics[Background -> None, ImageSize -> {80 - 22, 10}], 
+                    Row[{
+                    Graphics[Background -> None, ImageSize -> {80 - 22, 10}], 
+                    Which[$CellContext`exerciseCheck === Automatic, 
+                    MouseAppearance[
+                    Tooltip[
+                    Button[
+                    Framed[
+                    Panel[
+                    Style[$CellContext`buttonLabel, "SolutionCheckButton"], 
+                    Appearance -> None, Background -> GrayLevel[1], 
+                    FrameMargins -> {{2, 2}, {0, 0}}, ImageMargins -> 0], 
+                    FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0.9, 0.4, 0.]}, RoundingRadius -> 3], 
+                    
+                    Block[{$CellContext`exerciseNumber, \
+$CellContext`usersCell, $CellContext`usersCellString, \
+$CellContext`requesterIDData, $CellContext`solutionResult, \
+$CellContext`correctQ, $CellContext`destination, \
+$CellContext`solutionResponseText}, $CellContext`exerciseNumber = 
+                    "1" <> "." <> ToString[
+                    
+                    CurrentValue[{
+                    "CounterValue", "Exercise"}]]; $CellContext`buttonLabel = 
+                    Row[{"CHECKING", 
+                    ProgressIndicator[Appearance -> "Percolate"]}]; 
+                    SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> 
+                    False]; $CellContext`usersCell = NotebookRead[
+                    InputNotebook[]]; If[
+                    TrueQ[Length[
+                    Flatten[{$CellContext`usersCell}]] == 
+                    1], $CellContext`usersCellString = 
+                    ToString[$CellContext`usersCell, InputForm, 
+                    CharacterEncoding -> 
+                    "ASCII"]; $CellContext`requesterIDData = (If[
+                    AssociationQ[#], #, <||>]& )[
+                    Quiet[
+                    Check[
+                    ImportString[
+                    CloudObject`Private`authenticatedURLFetch[
+                    "https://www.wolframcloud.com/users/user-current/auth/\
+wolframuuid"], "RawJSON"], <||>]]]; $CellContext`solutionResult = Quiet[
+                    Catch[
+                    ToExpression[
+                    URLFetch[
+                    "https://www.wolframcloud.com/obj/online-courses/api/\
+exercise/check", Method -> "POST", 
+                    "Parameters" -> {
+                    "course" -> 
+                    "an-elementary-introduction-to-the-wolfram-language", 
+                    "exNum" -> $CellContext`exerciseNumber, 
+                    "answer" -> $CellContext`usersCellString, "id" -> 
+                    ToString[$RequesterCloudUserID], "uuid" -> 
+                    ToString[$RequesterCloudUserUUID], "name" -> ReplaceAll[
+                    StringTrim[
+                    Lookup[$CellContext`requesterIDData, "firstname", ""] <> 
+                    " " <> Lookup[$CellContext`requesterIDData, "lastname", 
+                    ""]], "" -> Missing[]]}]], $Failed]]; If[
+                    
+                    AssociationQ[$CellContext`solutionResult], \
+$CellContext`correctQ = $CellContext`solutionResult["CorrectQ"]; If[
+                    StringQ[
+                    $CellContext`solutionResult["Text"]], 
+                    SetOptions[
+                    EvaluationNotebook[], TaggingRules -> 
+                    MapAt[Append[#, $CellContext`exerciseNumber -> \
+$CellContext`solutionResult["Text"]]& , 
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "SolutionResponseText"]]]; $CellContext`exerciseCheck = 
+                    TrueQ[$CellContext`correctQ]; Null, 
+                    MessageDialog[
+                    "Unfortunately, something went wrong with grading.", 
+                    WindowFrame -> "ModalDialog"]; $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic; Null]; Null, 
+                    MessageDialog[
+                    "Select a cell to be checked.", WindowFrame -> 
+                    "ModalDialog"]; $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic; Null]; Null], Appearance -> None, Evaluator -> 
+                    Automatic, Method -> "Queued", 
+                    ImageMargins -> {{0, 0}, {30, 24}}], 
+                    "Click to check your solution.", TooltipDelay -> 0.15], 
+                    "LinkHand"], 
+                    TrueQ[$CellContext`exerciseCheck], 
+                    MouseAppearance[
+                    Button[
+                    Framed[
+                    Row[{
+                    Panel[
+                    Style[
+                    Graphics[{
+                    Thickness[0.038461538461538464`], {
+                    FaceForm[{
+                    RGBColor[0., 0.6666666666666666, 0.], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{0., 20.}, {26., 20.}, {26., 0.}, {0., 0.}, {0., 
+                    20.}}}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Thickness[0.019230769230769232`], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}, {0, 1, 0}}}, {{{
+                    7.701599597930908, 9.291000366210938}, {11.4891996383667, 
+                    5.503400802612305}, {17.801599502563477`, 
+                    13.709400177001953`}}}, CurveClosed -> {0}]}}, 
+                    AspectRatio -> Automatic, ImageSize -> {26., 20.}, 
+                    PlotRange -> {{0., 26.}, {0., 20.}}], Selectable -> 
+                    False], Background -> RGBColor[0, 
+                    Rational[2, 3], 0], FrameMargins -> {{5, 5}, {0, 0}}, 
+                    ImageMargins -> 0, Appearance -> None], 
+                    Panel[
+                    Style["CORRECT", "SolutionCheckButtonTrue"], Background -> 
+                    GrayLevel[1], FrameMargins -> {{5, 5}, {0, 0}}, 
+                    Appearance -> None]}], FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0, 
+                    Rational[2, 3], 0]}, FrameMargins -> 0, RoundingRadius -> 
+                    3], $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic, Appearance -> None, 
+                    ImageMargins -> {{0, 0}, {30, 24}}], "LinkHand"], True, 
+                    MouseAppearance[
+                    Button[
+                    Framed[
+                    Row[{
+                    Panel[
+                    Style[
+                    Graphics[{
+                    Thickness[0.045454545454545456`], {
+                    FaceForm[{
+                    RGBColor[1., 0., 0.], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{0., 20.}, {22., 20.}, {22., 0.}, {0., 0.}, {0., 
+                    20.}}}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}}}, {{{6., 15.}, {16., 5.}}}, 
+                    CurveClosed -> {0}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}}}, {{{16., 15.}, {6., 5.}}}, 
+                    CurveClosed -> {0}]}}, AspectRatio -> Automatic, 
+                    ImageSize -> {22., 20.}, 
+                    PlotRange -> {{0., 22.}, {0., 20.}}], Selectable -> 
+                    False], Background -> RGBColor[1, 0, 0], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, ImageMargins -> 0, 
+                    Appearance -> None], 
+                    Panel[
+                    Style["TRY AGAIN", "SolutionCheckButtonFalse"], 
+                    Background -> GrayLevel[1], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, Appearance -> None]}], 
+                    FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[1, 0, 0]}, FrameMargins -> 0, RoundingRadius -> 
+                    3], $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic, Appearance -> None, 
+                    ImageMargins -> {{0, 0}, {30, 24}}], "LinkHand"]]}], 
+                    If[
+                    And[
+                    AssociationQ[$CellContext`solutionResult], 
+                    StringQ[
+                    $CellContext`solutionResult["Text"]]], {
+                    Spacer[0], 
+                    TextCell[
+                    $CellContext`solutionResult["Text"], "SolutionResponse"]},
+                     Nothing], 
+                    Graphics[
+                    Background -> None, ImageSize -> {Automatic, 10}]}], 
+                  Spacings -> {0, Automatic}], ImageSize -> Full], 
+                StandardForm], ImageSizeCache -> {109, {9, 16}}], 
+              DynamicModuleValues :> {}], None}}], 
+         Cell[
+          StyleData["Output"], Deletable -> True, ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, CellEditDuplicate -> 
+          True, GeneratedCell -> True, CellAutoOverwrite -> True, 
+          LinebreakAdjustments -> {1, 2., 12., 1.25, 1.}], 
+         Cell[
+          StyleData["InputOnly"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["InputHidden", StyleDefinitions -> StyleData["Input"]], 
+          CellEpilog :> (SelectionMove[
+             EvaluationNotebook[], All, GeneratedCell]; 
+           FrontEndTokenExecute["SelectionCloseUnselectedCells"])], 
+         Cell[
+          StyleData["Code"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}, FontWeight -> 
+          "Plain"], 
+         Cell[
+          StyleData["Print"], 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["Echo"], ShowCellBracket -> True], 
+         Cell[
+          StyleData["EchoTiming"], ShowCellBracket -> True], 
+         Cell[
+          StyleData["InlineCode"], SpanMaxSize -> 0, FontWeight -> 
+          "SemiBold"], 
+         Cell[
+          StyleData[
+          "InlineCodeText", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData[
+          "InlineInput", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData["InlineFormula"], ShowStringCharacters -> True, 
+          SpanMaxSize -> 0, FontWeight -> "SemiBold"], 
+         Cell[
+          StyleData["InlineMath"], SpanMaxSize -> 0], 
+         Cell[
+          StyleData["WolframAlphaShort"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["WolframAlphaLong"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["ExternalLanguage"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["Message"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}], 
+         Cell[
+          StyleData["ChatInput"], FontSize -> 14], 
+         Cell[
+          StyleData["SideChat"], FontSize -> 14], 
+         Cell[
+          StyleData["ChatSystemInput"], FontSize -> 14], 
+         Cell[
+          StyleData["ChatOutput"], FontSize -> 14], 
+         Cell[
+          StyleData["Separator"], CellFrame -> {{False, False}, {1.5, False}},
+           CellMargins -> {{70, Inherited}, {25, 0}}, CellFrameColor -> 
+          GrayLevel[0.66], MenuSortingValue -> 10000], 
+         Cell[
+          StyleData["ExerciseMark", StyleDefinitions -> StyleData["Text"]], 
+          FontColor -> GrayLevel[0.5]], 
+         Cell[
+          StyleData[
+          "ExperimentalInput", StyleDefinitions -> StyleData["Input"]], 
+          Editable -> True, CellFrame -> True, 
+          StyleKeyMapping -> {"=" -> "WolframAlphaShort", "*" -> "Item"}, 
+          CellFrameColor -> RGBColor[1, 0.43, 0.13], CellFrameLabels -> {{
+             Cell[
+              BoxData[
+               RotationBox["Experimental", BoxRotation -> 1.5708]], "Text", 
+              FontSize -> 10, FontColor -> RGBColor[1, 0.43, 0.13]], None}, {
+            None, None}}], 
+         Cell[
+          StyleData["KeyEvent"], CellFrame -> {{1, 1}, {1, 1}}, 
+          CellFrameMargins -> {{2, 2}, {2, 2}}, CellFrameColor -> 
+          GrayLevel[0.8], FontColor -> GrayLevel[0.36], Background -> 
+          GrayLevel[0.96]], 
+         Cell[
+          StyleData[
+          "InputButtonCell", StyleDefinitions -> StyleData["Input"]], 
+          StyleMenuListing -> None], 
+         Cell[
+          StyleData["CellLabel"], FontColor -> GrayLevel[0.6]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Exercise", "Subsection"], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseNumber", StyleDefinitions -> StyleData["Text"]], 
+             Editable -> False, Deletable -> False, FontSize -> 16, 
+             FontWeight -> "SemiBold", FontColor -> RGBColor[0.9, 0.4, 0.]], 
+            Cell[
+             StyleData["ExerciseNumber", "Printout"]]}, Closed]], 
+         Cell[
+          StyleData["Exercise", StyleDefinitions -> StyleData["Section"]], 
+          Editable -> False, Deletable -> False, CellFrame -> False, 
+          CellDingbat -> Cell[
+            TextData[{
+              StyleBox[
+               CounterBox["Chapter"], "ExerciseNumber"], 
+              StyleBox[".", "ExerciseNumber"], 
+              StyleBox[
+               CounterBox["Exercise"], "ExerciseNumber"]}]], ShowCellBracket -> 
+          False, ShowGroupOpener -> False, CellMargins -> {{80, 10}, {4, 18}},
+           CounterIncrements -> "Exercise", FontSize -> 16, FontColor -> 
+          GrayLevel[0.25]], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseInput", StyleDefinitions -> StyleData["Input"]], 
+             Editable -> False, Deletable -> False, CellFrame -> 0, 
+             CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+             ShowCellLabel -> False, 
+             CellFrameLabels -> {{None, None}, {None, None}}, SpanMaxSize -> 
+             1, $CellContext`GeneratedCellStyles -> {
+              "Output" -> "ExerciseOutput"}], 
+            Cell[
+             StyleData["ExerciseInput", "Printout"], 
+             CellMargins -> {{88, 10}, {4, 7}}]}, Closed]], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseOutput", StyleDefinitions -> StyleData["Output"]], 
+             Editable -> False, Deletable -> False, 
+             CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+             CellGroupingRules -> "OutputGrouping", ShowCellLabel -> False], 
+            Cell[
+             StyleData["ExerciseOutput", "Printout"], 
+             CellMargins -> {{88, 10}, {10, 4}}]}, Closed]], 
+         Cell[
+          StyleData["ExerciseText", StyleDefinitions -> StyleData["Text"]], 
+          FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData[
+          "ExerciseExpectedResult", StyleDefinitions -> 
+           StyleData["Subsection"]], Editable -> False, Deletable -> False, 
+          ShowCellBracket -> False, ShowGroupOpener -> False, 
+          WholeCellGroupOpener -> True, CellMargins -> {{80, 40}, {1, 14}}, 
+          CellGroupingRules -> InputGrouping, FontSize -> 12, FontWeight -> 
+          "SemiBold", FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[0.5]], 
+         Cell[
+          StyleData[
+          "ExpectedOutputNote", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Selectable -> False, Deletable -> False, 
+          FontColor -> GrayLevel[0.3]], 
+         Cell[
+          StyleData["CheckAnswerDividerCloud"], Editable -> False, Deletable -> 
+          False, ShowCellBracket -> False, CellMargins -> {{40, 40}, {3, 6}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, 
+          CellGroupingRules -> {"SectionGrouping", 40}, 
+          CellFrameMargins -> {{20, 20}, {2, 2}}, TextAlignment -> Right], 
+         Cell[
+          StyleData["BlankInput", StyleDefinitions -> StyleData["Input"]], 
+          CellFrame -> 1, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+          CellFrameMargins -> {{10, 0}, {3, 3}}, CellFrameColor -> 
+          GrayLevel[0.7], CellFrameLabels -> {{None, None}, {None, None}}, 
+          ShowSyntaxStyles -> False, ShowStringCharacters -> False], 
+         Cell[
+          StyleData["CodeSectionDividerCloud"], Editable -> False, Selectable -> 
+          False, Deletable -> False, ShowCellBracket -> False, 
+          CellMargins -> {{0, 0}, {0, 30}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, 
+          CellElementSpacings -> {"CellMinHeight" -> 6}, 
+          CellGroupingRules -> {"SectionGrouping", -5}, 
+          CellFrameMargins -> {{20, 20}, {2, 2}}, DefaultNewCellStyle -> 
+          "EmptyCell", FontSize -> 6, Background -> GrayLevel[0.95]], 
+         Cell[
+          StyleData["ExpectedOutputText"], Editable -> False, Deletable -> 
+          False, FontFamily -> ("Source Sans Pro" FontSize -> 13), FontColor -> 
+          RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData["CompletedExerciseHeader"], Editable -> False, Deletable -> 
+          False, MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontColor -> GrayLevel[0.5]], 
+         Cell[
+          StyleData["SolutionTrue"], Editable -> False, Deletable -> False, 
+          MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", 
+          FontSize -> 12, FontColor -> RGBColor[0, 
+            Rational[2, 3], 0]], 
+         Cell[
+          StyleData["SolutionFalse"], Editable -> False, Deletable -> False, 
+          FontFamily -> "Source Sans Pro", FontSize -> 12, FontColor -> 
+          RGBColor[1, 0, 0]], 
+         Cell[
+          StyleData[
+          "SolutionResponse", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, ShowCellBracket -> True, 
+          CellMargins -> {{24, 25}, {6, 0}}, 
+          CellFrameMargins -> {{8, 0}, {0, 12}}, TextAlignment -> Right, 
+          ShowStringCharacters -> False, FontSize -> 12], 
+         Cell[
+          StyleData[
+          "ExerciseResponseCell", StyleDefinitions -> 
+           StyleData["Subsection"]], Editable -> False, Selectable -> False, 
+          Deletable -> False, ShowCellBracket -> False, 
+          CellMargins -> {{24, 25}, {3, 0}}, 
+          CellFrameMargins -> {{8, 0}, {0, 0}}, TextAlignment -> Right, 
+          ShowStringCharacters -> False, MenuSortingValue -> None, FontSize -> 
+          12, Background -> GrayLevel[1]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButton", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, FontSize -> 12, FontColor -> 
+          RGBColor[0.9, 0.4, 0]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButtonTrue", StyleDefinitions -> 
+           StyleData["SolutionCheckButton"]], FontColor -> RGBColor[0, 
+            Rational[2, 3], 0]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButtonFalse", StyleDefinitions -> 
+           StyleData["SolutionCheckButton"]], FontColor -> RGBColor[1, 0, 0]], 
+         Cell[
+          StyleData[
+          "ExerciseDockedCell", StyleDefinitions -> StyleData["Text"]], 
+          ShowCellBracket -> False, FontSize -> 18, FontColor -> RGBColor[
+            Rational[22, 255], 
+            Rational[8, 51], 
+            Rational[21, 85]], Background -> RGBColor[
+            Rational[244, 255], 
+            Rational[50, 51], 1]], 
+         Cell[
+          StyleData[
+          "ExerciseFirstCell", StyleDefinitions -> 
+           StyleData["ExerciseDockedCell"]], 
+          CellMargins -> {{55, 10}, {30, 6}}, FontSize -> 14, FontColor -> 
+          RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Ungraded Exercise", "Subsection"], 
+         Cell[
+          StyleData[
+          "ExerciseSubsection", StyleDefinitions -> StyleData["Subsection"]], 
+          CellMargins -> {{27, Inherited}, {5, 50}}, 
+          CellElementSpacings -> {"ClosedGroupTopMargin" -> 32}, FontSize -> 
+          15, FontWeight -> "Bold", FontColor -> RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData[
+          "ExerciseFirstSubsection", StyleDefinitions -> 
+           StyleData["ExerciseSubsection"]], 
+          CellMargins -> {{27, Inherited}, {0, 20}}], 
+         Cell[
+          StyleData[
+          "ExerciseSubsectionAdvanced", StyleDefinitions -> 
+           StyleData["ExerciseSubsection"]], CellDingbat -> "\[DiamondSuit]"], 
+         Cell[
+          StyleData[
+          "ExerciseFirstSubsectionAdvanced", StyleDefinitions -> 
+           StyleData["ExerciseFirstSubsection"]], CellDingbat -> 
+          "\[DiamondSuit]"], 
+         Cell[
+          StyleData["ExerciseSubsectionInline"], FontColor -> 
+          RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData[
+          "ExerciseSolution", StyleDefinitions -> StyleData["Subsubsection"]],
+           ShowGroupOpener -> "Inline", 
+          CellMargins -> {{70, Inherited}, {Inherited, Inherited}}, 
+          CellElementSpacings -> {"ClosedGroupTopMargin" -> 16}, FontSize -> 
+          12, FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[0.6]], 
+         Cell[
+          StyleData[
+          "ExerciseCheck", StyleDefinitions -> StyleData["ExerciseSolution"]],
+           FontColor -> RGBColor[
+            Rational[37, 255], 
+            Rational[23, 51], 
+            Rational[18, 85]]], 
+         Cell[
+          StyleData["ExerciseItem", StyleDefinitions -> StyleData["Item"]], 
+          CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.9, 0.4, 0.]], 
+          CellMargins -> {{83, Inherited}, {Inherited, Inherited}}, FontSize -> 
+          16, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ExerciseItemNumbered", StyleDefinitions -> 
+           StyleData["ItemNumbered"]], 
+          CellMargins -> {{88, Inherited}, {Inherited, Inherited}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["ExercisePrompt", StyleDefinitions -> StyleData["Text"]], 
+          CellMargins -> {{27, Inherited}, {5, 1}}, LineSpacing -> {0.9, 1}, 
+          FontSize -> 18, FontWeight -> "Regular", FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ExerciseEquation", StyleDefinitions -> 
+           StyleData["ExercisePrompt"]], 
+          CellMargins -> {{27, Inherited}, {5, 1}}, LineSpacing -> {0.9, 1}, 
+          FontSize -> 18, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]]}, Closed]]}, Open]]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (August 22, 2022)", 
+  StyleDefinitions -> Notebook[{
+     Cell[
+      StyleData[StyleDefinitions -> "PrivateStylesheetFormatting.nb"]]}, 
+    Visible -> False, FrontEndVersion -> 
+    "13.1 for Microsoft Windows (64-bit) (August 22, 2022)", StyleDefinitions -> 
+    "PrivateStylesheetFormatting.nb"]],
+ExpressionUUID->"b1572bbd-5484-490f-a11d-4afb7e71e398"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[644, 23, 583, 16, 43, "Exercise",ExpressionUUID->"41cbe937-bbec-4359-b995-f34fd745b976"],
+Cell[CellGroupData[{
+Cell[1252, 43, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"895672f8-220c-47eb-af6e-32023d03ebc4"],
+Cell[1502, 51, 91, 0, 70, "ExerciseOutput",ExpressionUUID->"4879beca-af09-4c2e-a127-dc54bf52ab6e"]
+}, {1}]],
+Cell[CellGroupData[{
+Cell[1627, 56, 114, 1, 169, "Input",ExpressionUUID->"d7294a11-32d7-465c-b5d3-3a76a2a5cc55"],
+Cell[1744, 59, 83, 0, 23, "Output",ExpressionUUID->"f9358e49-1eff-4f6e-9ff3-4c3cd978a011"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1876, 65, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"40fd23c0-8eb6-4ee0-9f92-c84039fb63eb"],
+Cell[CellGroupData[{
+Cell[2030, 71, 4031, 69, 52, "Exercise",ExpressionUUID->"765da2ea-8f5c-4a3a-a2bf-d86511df5516"],
+Cell[CellGroupData[{
+Cell[6086, 144, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"3daca132-372a-468f-9145-def7913e04c2"],
+Cell[6336, 152, 92, 0, 70, "ExerciseOutput",ExpressionUUID->"cf38ce35-1aca-49df-9fa7-d94bc8e8606d"]
+}, {1}]],
+Cell[6440, 155, 136, 2, 169, "Input",ExpressionUUID->"722d8584-7abb-440b-86a3-c695ca4a3834"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6625, 163, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"c98a91fa-93a1-477b-9fd7-93b474b6c2cc"],
+Cell[CellGroupData[{
+Cell[6779, 169, 4036, 69, 52, "Exercise",ExpressionUUID->"dc8c3cdb-571d-4589-b722-10c11a96b9e2"],
+Cell[CellGroupData[{
+Cell[10840, 242, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"17b227f0-f97f-4ddf-9f23-4011120c6700"],
+Cell[11090, 250, 93, 0, 70, "ExerciseOutput",ExpressionUUID->"d0453484-7f91-4b91-a127-d69cc32d0d56"]
+}, {1}]],
+Cell[11195, 253, 136, 2, 169, "Input",ExpressionUUID->"8b96de83-4a75-4539-bcdd-d53cf4f9d143"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11380, 261, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"1384b230-e243-4731-8601-fc4adbbcf22b"],
+Cell[CellGroupData[{
+Cell[11534, 267, 624, 16, 43, "Exercise",ExpressionUUID->"8813d41e-3aa0-4ff8-8c64-65c13f2c8d1a"],
+Cell[CellGroupData[{
+Cell[12183, 287, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"c11879c7-b2df-4ee3-a4d1-476ca4870c50"],
+Cell[12433, 295, 92, 0, 70, "ExerciseOutput",ExpressionUUID->"5f011eb3-451d-4bc9-80aa-993506b45eab"]
+}, {1}]],
+Cell[12537, 298, 104, 1, 169, "Input",ExpressionUUID->"ac63b376-a71e-41ed-a976-d41c680096b2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12690, 305, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"05bc4ace-9e49-4354-98d5-e89e3bd50ac4"],
+Cell[CellGroupData[{
+Cell[12844, 311, 3869, 62, 52, "Exercise",ExpressionUUID->"64fc7e3e-36a5-46c6-87e3-0911a6bdaafd"],
+Cell[CellGroupData[{
+Cell[16738, 377, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"56b2bf9c-e0c4-4198-a412-a9501328fe85"],
+Cell[16988, 385, 92, 0, 70, "ExerciseOutput",ExpressionUUID->"4a782b8e-3549-4f9f-834a-fd8d9baee6c6"]
+}, {1}]],
+Cell[17092, 388, 104, 1, 169, "Input",ExpressionUUID->"26b32876-9e39-43c9-8a67-bef5b1272ea9"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17245, 395, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"2500800c-d79f-465c-885d-dff5de253158"],
+Cell[CellGroupData[{
+Cell[17399, 401, 459, 9, 43, "Exercise",ExpressionUUID->"18c56ef5-b02a-41cf-86b7-74729a56c01e"],
+Cell[CellGroupData[{
+Cell[17883, 414, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"30b54bc6-6718-40fb-a2aa-dfc7801f360d"],
+Cell[18133, 422, 103, 0, 70, "ExerciseOutput",ExpressionUUID->"4ca78d83-7cbb-40ba-91c0-859c8458b63d"]
+}, {1}]],
+Cell[18248, 425, 106, 1, 169, "Input",ExpressionUUID->"009c631d-23f1-4396-a9c5-831dd6b8c520"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18403, 432, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"76a90fa4-8ea2-4222-b68f-6d9c01b3f821"],
+Cell[CellGroupData[{
+Cell[18557, 438, 4022, 69, 52, "Exercise",ExpressionUUID->"00917dd5-ec85-4e69-ac8d-bcc3ff747f39"],
+Cell[CellGroupData[{
+Cell[22604, 511, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"627fd5c9-ad2b-4c52-a6d3-23adc8e92aa8"],
+Cell[22854, 519, 117, 0, 70, "ExerciseOutput",ExpressionUUID->"20885980-de4a-42cb-817c-841a7eace4b4"]
+}, {1}]],
+Cell[22983, 522, 153, 4, 169, "Input",ExpressionUUID->"18a6fec0-ecad-430c-a284-f73c361edc4a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23185, 532, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"7179c827-c768-42ad-89f8-a06f940537a7"],
+Cell[CellGroupData[{
+Cell[23339, 538, 4053, 70, 52, "Exercise",ExpressionUUID->"a0ce1c26-7bc1-4074-8d8f-4fda4416e725"],
+Cell[CellGroupData[{
+Cell[27417, 612, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"e58db18f-b98a-4842-8e60-5973a399b1f2"],
+Cell[27667, 620, 92, 0, 70, "ExerciseOutput",ExpressionUUID->"2b71d69e-a724-4f77-a0e7-5917e0b0b79b"]
+}, {1}]],
+Cell[27771, 623, 195, 6, 169, "Input",ExpressionUUID->"2e5df855-435d-4902-905b-3c9e0c9e1326"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28015, 635, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"5778ff84-8297-48f0-b128-23ae3f6650e7"],
+Cell[CellGroupData[{
+Cell[28169, 641, 469, 9, 43, "Exercise",ExpressionUUID->"c6ea9479-9f40-4927-a6b8-60aab7eb9c1c"],
+Cell[CellGroupData[{
+Cell[28663, 654, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"18d2d0c3-bef9-4cb5-bcbd-c3fb46df253d"],
+Cell[28913, 662, 97, 0, 70, "ExerciseOutput",ExpressionUUID->"1bc19b04-2175-4b7c-a4f9-c209fcaeecad"]
+}, {1}]],
+Cell[29022, 665, 109, 1, 169, "Input",ExpressionUUID->"27eea2fa-2b13-47a9-a9de-e40e73b98146"]
+}, Open  ]]
+}, Open  ]],
+Cell[29158, 670, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"4df80b5f-d6c4-481e-9762-9b2f76794fa8"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
