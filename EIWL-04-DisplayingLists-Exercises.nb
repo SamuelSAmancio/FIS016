@@ -1,0 +1,3701 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    157229,       3691]
+NotebookOptionsPosition[    116533,       2838]
+NotebookOutlinePosition[    152782,       3613]
+CellTagsIndexPosition[    152739,       3610]
+WindowTitle->4 | Exercises: Displaying Lists
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[TextData[{
+ "Make a bar chart of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "2", ",", "3", ",", "5"}], "}"}], 
+   TraditionalForm]],ExpressionUUID->"165d65af-f74e-46df-b7cc-a0ecf46e1023"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"4.1\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"c765eb95-a6a5-482d-9dc1-e022a00140ec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"63328f50-13f7-4c29-8311-73a6e6640c8f"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Opacity[0], 
+    PointBox[{{0.45075018208302986`, 0.}, {5.451201747997087, 0.}}]}, {{}, 
+    {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+     0.6649999999999999], Thickness[Small]}], 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{0.5487982520029133, 0.}, {1.4512017479970867, 1.},
+          RoundingRadius->0],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{1.5487982520029133, 0.}, {2.4512017479970867, 1.},
+          RoundingRadius->0],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{2.5487982520029133, 0.}, {3.4512017479970867, 2.},
+          RoundingRadius->0],
+         StatusArea[#, 2]& ,
+         TagBoxNote->"2"],
+        StyleBox["2", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[2, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{3.5487982520029133, 0.}, {4.451201747997087, 3.},
+          RoundingRadius->0],
+         StatusArea[#, 3]& ,
+         TagBoxNote->"3"],
+        StyleBox["3", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[3, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{4.548798252002913, 0.}, {5.451201747997087, 5.},
+          RoundingRadius->0],
+         StatusArea[#, 5]& ,
+         TagBoxNote->"5"],
+        StyleBox["5", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[5, {}], "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, 
+   StyleBox[{
+     {Thickness[Tiny], 
+      LineBox[{{0.45075018208302986`, 0.}, {5.551210779315368, 0.}}], 
+      StyleBox[{}, "GraphicsLabel",
+       StripOnInput->False]}, 
+     StyleBox[{
+       {Thickness[Tiny], 
+        LineBox[{{0.5487982520029133, 0.}, 
+          Offset[{-1.102182119232618*^-15, -6.}, {0.5487982520029133, 0.}]}], 
+        LineBox[{{5.451201747997087, 0.}, 
+          Offset[{-1.102182119232618*^-15, -6.}, {5.451201747997087, 
+           0.}]}], {{}, {}, {}, {}, {}, {}, {}}}, 
+       StyleBox[{}, "GraphicsLabel",
+        StripOnInput->False]}, "GraphicsTicks",
+      StripOnInput->False]}, "GraphicsAxes",
+    StripOnInput->False,
+    Antialiasing->False]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{False, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.45075018208302986`, 0.},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& )},
+  DisplayFunction->Identity,
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{All, All}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{None, Automatic}]], "ExerciseOutput",ExpressionUUID->"5ee3f48a-3074-\
+4b9b-8edf-5524d020a34a"]
+}, {1}]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BarChart", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "2", ",", "3", ",", "5"}], "}"}], 
+  "]"}]], "Input",ExpressionUUID->"d86edf3e-f31e-4ccb-a020-bbf8c6ef8b5a"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Opacity[0], 
+    PointBox[{{0.45075018208302986`, 0.}, {5.451201747997087, 0.}}]}, {{}, 
+    {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+     0.6649999999999999], Thickness[Small]}], 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{0.5487982520029133, 0.}, {1.4512017479970867`, 1.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{14.929482887444642`, 76.33909552956345}, {
+            62.42615123178837, 104.14999999999999`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{1.5487982520029133`, 0.}, {2.4512017479970867`, 1.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{82.42657583145522, 143.83618847357405`}, {
+            62.42615123178837, 104.14999999999999`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{2.5487982520029133`, 0.}, {3.4512017479970867`, 2.},
+              "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{149.92366877546584`, 211.3332814175846}, {
+            21.202302463576743`, 104.14999999999999`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 2]& ,
+         TagBoxNote->"2"],
+        StyleBox["2", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[2, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{3.5487982520029133`, 0.}, {4.451201747997087, 3.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{217.4207617194764, 
+            278.8303743615952}, {-20.02154630463488, 104.14999999999999`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 3]& ,
+         TagBoxNote->"3"],
+        StyleBox["3", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[3, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.6649999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[
+         TagBox[
+          DynamicBox[{
+            FEPrivate`If[
+             CurrentValue["MouseOver"], 
+             EdgeForm[{
+               GrayLevel[0.5], 
+               AbsoluteThickness[1.5], 
+               Opacity[0.66]}], {}, {}], 
+            
+            RectangleBox[{4.548798252002913, 0.}, {5.451201747997087, 5.}, 
+             "RoundingRadius" -> 0]},
+           
+           ImageSizeCache->{{284.917854663487, 
+            346.3274673056058}, {-102.46924384105812`, 104.14999999999999`}}],
+          "DelayedMouseEffectStyle"],
+         StatusArea[#, 5]& ,
+         TagBoxNote->"5"],
+        StyleBox["5", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[5, {}], "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, 
+   StyleBox[
+    StyleBox[{
+      {Thickness[Tiny], 
+       LineBox[{{0.45075018208302986`, 0.}, {5.551210779315368, 0.}}], 
+       StyleBox[{}, "GraphicsLabel",
+        StripOnInput->False]}, 
+      StyleBox[{
+        {Thickness[Tiny], 
+         LineBox[{{0.5487982520029133, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {0.5487982520029133, 0.}]}],
+          LineBox[{{5.451201747997087, 0.}, 
+           Offset[{-1.102182119232618*^-15, -6.}, {5.451201747997087, 
+            0.}]}], {{}, {}, {}, {}, {}, {}, {}}}, 
+        StyleBox[{}, "GraphicsLabel",
+         StripOnInput->False]}, "GraphicsTicks",
+       StripOnInput->False]},
+     Antialiasing->False], "GraphicsAxes",
+    StripOnInput->False]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{False, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.45075018208302986`, 0.},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& )},
+  DisplayFunction->Identity,
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{All, All}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{None, Automatic}]], "Output",ExpressionUUID->"2e762a9a-af1e-4e1e-\
+a526-2897464892f4"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"2eaa5431-742d-4e26-9619-123b3e590fd5"],
+
+Cell[CellGroupData[{
+
+Cell["Make a pie chart of numbers from 1 to 10.", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"4.2\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"e8a57c9b-4362-406e-adcc-5502c18bd562"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"2522f3fc-128a-4f63-8d7b-5495d1446af3"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   DynamicModuleBox[{DynamicChart`click$845864$846102 = False, 
+    DynamicChart`click$845870$846102 = False, 
+    DynamicChart`click$845876$846102 = False, 
+    DynamicChart`click$845882$846102 = False, 
+    DynamicChart`click$845888$846102 = False, 
+    DynamicChart`click$845894$846102 = False, 
+    DynamicChart`click$845900$846102 = False, 
+    DynamicChart`click$845906$846102 = False, 
+    DynamicChart`click$845912$846102 = False, 
+    DynamicChart`click$845918$846102 = False}, {
+     {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
+         {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {3.0273529207319823`, 
+                    3.141592653589793}]},
+                  
+                  ImageSizeCache->{{31.585786437626894`, 
+                   181.41421356237308`}, {-20.17095081628262, \
+-0.5857864376268864}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845864$846102, 
+                 FEPrivate`Not[DynamicChart`click$845864$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845864$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.19967382078522714`, 0.011417762172553686`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845864$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.99048, 0.6546373333333334, 0.2701484444444444], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {2.798873455016361, 
+                    3.0273529207319823`}]},
+                  
+                  ImageSizeCache->{{32.543971341390005`, 
+                   181.4142135623731}, {-52.813474365041365`, \
+-0.5857864376268864}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 2]& ,
+                TagBoxNote->"2"],
+               StyleBox["2", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[2, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845870$846102, 
+                 FEPrivate`Not[DynamicChart`click$845870$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845870$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.19480238338846667`, 0.04529935348515298}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845870$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.998096, 0.5661274666666667, 0.2140296888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {2.4561542564429293`, 
+                    2.798873455016361}]},
+                  
+                  ImageSizeCache->{{40.13466498261678, 
+                   181.4142135623731}, {-96.46704427227704, \
+-0.5857864376268793}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 3]& ,
+                TagBoxNote->"3"],
+               StyleBox["3", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[3, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845876$846102, 
+                 FEPrivate`Not[DynamicChart`click$845876$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845876$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.17414921542395542`, 0.09834658492912082}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845876$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.928, 0.5210666666666667, 0.2], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.9991953250116865`, 
+                    2.4561542564429293`}]},
+                  
+                  ImageSizeCache->{{64.78696967368177, 
+                   181.4142135623731}, {-137.13011687948728`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 4]& ,
+                TagBoxNote->"4"],
+               StyleBox["4", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[4, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845882$846102, 
+                 FEPrivate`Not[DynamicChart`click$845882$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845882$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.12212957592708762`, 0.15838044918445504`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845882$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.8320000000000001, 0.49048888888888886`, 0.2], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.4279966607226333`, 
+                    1.9991953250116865`}]},
+                  
+                  ImageSizeCache->{{117.5197795263496, 
+                   202.334494788546}, {-150.41421356237308`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 5]& ,
+                TagBoxNote->"5"],
+               StyleBox["5", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[5, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845888$846102, 
+                 FEPrivate`Not[DynamicChart`click$845888$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845888$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.028462967654657, 0.19796428837618657`}}, {{1, 0}, {0,
+               1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845888$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.7598801777777778, 0.4773333333333333, 0.3161064888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {0.7425582635757695, 
+                    1.4279966607226333`}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   289.7151608302046}, {-148.91796551887018`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 6]& ,
+                TagBoxNote->"6"],
+               StyleBox["6", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[6, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845894$846102, 
+                 FEPrivate`Not[DynamicChart`click$845894$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845894$846102, {{{1., 0.}, {0., 1.}}, {
+               0.09333346464513473, 0.17688658619956288`}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845894$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.7116405333333333, 0.4816, 0.5483194666666666], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {-0.05711986642890521, 
+                    0.7425582635757695}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   328.4142135623731}, {-102.81192390265396`, 
+                   7.806268759199995}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 7]& ,
+                TagBoxNote->"7"],
+               StyleBox["7", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[7, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845900$846102, 
+                 FEPrivate`Not[DynamicChart`click$845900$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845900$846102, {{{1., 0.}, {0., 1.}}, {
+               0.18836887272790492`, 0.06720987864308606}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845900$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.6558762666666667, 0.4926222222222222, 0.7345293333333333], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-0.9710377292913908, -0.05711986642890521}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   328.17447183951504`}, {-3.4142135623730923`, 
+                   120.7585824159009}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 8]& ,
+                TagBoxNote->"8"],
+               StyleBox["8", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[8, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845906$846102, 
+                 FEPrivate`Not[DynamicChart`click$845906$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845906$846102, {{{1., 0.}, {0., 1.}}, {
+               0.17414921542395545`, -0.09834658492912075}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845906$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.5775381333333334, 0.5239111111111111, 0.7827298666666667], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-1.9991953250116863`, -0.9710377292913908}]},
+                  
+                  ImageSizeCache->{{117.51977952634962`, 
+                   264.3873667357882}, {-3.414213562373078, 
+                   146.4142135623731}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 9]& ,
+                TagBoxNote->"9"],
+               StyleBox["9", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[9, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845912$846102, 
+                 FEPrivate`Not[DynamicChart`click$845912$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845912$846102, {{{1., 0.}, {0., 1.}}, {
+               0.01711500169576797, -0.19926634617253827`}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845912$846102}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -1.9991953250116863`}]},
+                  
+                  ImageSizeCache->{{31.585786437626894`, 
+                   181.41421356237308`}, {-3.414213562373078, 
+                   133.13011687948733`}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 10]& ,
+                TagBoxNote->"10"],
+               StyleBox["10", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[10, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$845918$846102, 
+                 FEPrivate`Not[DynamicChart`click$845918$846102]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$845918$846102, {{{1., 0.}, {0., 
+               1.}}, {-0.16825070656623622`, -0.10812816349111956`}}, {{1, 
+              0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$845918$846102}]],
+           "DelayedClickEffect"]}}}, {}}, {}}, {{{
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845864$846102, 
+               FEPrivate`Not[DynamicChart`click$845864$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845864$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.19967382078522714`, 0.011417762172553686`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845864$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 2]& ,
+              TagBoxNote->"2"],
+             StyleBox["2", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[2, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845870$846102, 
+               FEPrivate`Not[DynamicChart`click$845870$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845870$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.19480238338846667`, 0.04529935348515298}}, {{1, 0}, {0,
+             1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845870$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 3]& ,
+              TagBoxNote->"3"],
+             StyleBox["3", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[3, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845876$846102, 
+               FEPrivate`Not[DynamicChart`click$845876$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845876$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.17414921542395542`, 0.09834658492912082}}, {{1, 0}, {0,
+             1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845876$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 4]& ,
+              TagBoxNote->"4"],
+             StyleBox["4", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[4, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845882$846102, 
+               FEPrivate`Not[DynamicChart`click$845882$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845882$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.12212957592708762`, 0.15838044918445504`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845882$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 5]& ,
+              TagBoxNote->"5"],
+             StyleBox["5", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[5, {}], "Tooltip"]& ],
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845888$846102, 
+               FEPrivate`Not[DynamicChart`click$845888$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845888$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.028462967654657, 0.19796428837618657`}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845888$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 6]& ,
+              TagBoxNote->"6"],
+             StyleBox["6", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[6, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845894$846102, 
+               FEPrivate`Not[DynamicChart`click$845894$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845894$846102, {{{1., 0.}, {0., 1.}}, {
+             0.09333346464513473, 0.17688658619956288`}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845894$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 7]& ,
+              TagBoxNote->"7"],
+             StyleBox["7", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[7, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845900$846102, 
+               FEPrivate`Not[DynamicChart`click$845900$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845900$846102, {{{1., 0.}, {0., 1.}}, {
+             0.18836887272790492`, 0.06720987864308606}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845900$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 8]& ,
+              TagBoxNote->"8"],
+             StyleBox["8", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[8, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845906$846102, 
+               FEPrivate`Not[DynamicChart`click$845906$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845906$846102, {{{1., 0.}, {0., 1.}}, {
+             0.17414921542395545`, -0.09834658492912075}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845906$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 9]& ,
+              TagBoxNote->"9"],
+             StyleBox["9", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[9, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845912$846102, 
+               FEPrivate`Not[DynamicChart`click$845912$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845912$846102, {{{1., 0.}, {0., 1.}}, {
+             0.01711500169576797, -0.19926634617253827`}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845912$846102}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 10]& ,
+              TagBoxNote->"10"],
+             StyleBox["10", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[10, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$845918$846102, 
+               FEPrivate`Not[DynamicChart`click$845918$846102]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$845918$846102, {{{1., 0.}, {0., 
+             1.}}, {-0.16825070656623622`, -0.10812816349111956`}}, {{1, 0}, {
+            0, 1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$845918$846102}]],
+         "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+    DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+  ContentSelectable->False,
+  DisplayFunction->Identity,
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{-1., 1.}, {-1., 1.}},
+  PlotRangePadding->Scaled[0.09166666666666669]]], "ExerciseOutput",Expression\
+UUID->"f2bc332b-ba07-49b5-9eaa-a524420d1692"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"PieChart", "[", 
+  RowBox[{"Range", "[", "10", "]"}], "]"}]], "Input",ExpressionUUID->\
+"944c9793-6e9b-4a05-b076-8c3a821df3d6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"eebb23c2-4fc7-4b65-9bba-06023ad87767"],
+
+Cell[CellGroupData[{
+
+Cell["Make a bar chart of numbers counting down from 20 to 1.", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"4.3\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"6ab7f86b-51f7-4062-a75b-8fde53edcf19"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"9d30449a-b660-47a7-bf0e-fa443e7c281a"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {Opacity[0], 
+    PointBox[{{0.19588550983899827`, 0.}, {20.407802394385577`, 0.}}]}, {{}, 
+    {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+     0.5599999999999999], Thickness[Small]}], 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{0.5921976056144214, 0.}, {1.4078023943855786, 20.},
+          RoundingRadius->0],
+         StatusArea[#, 20]& ,
+         TagBoxNote->"20"],
+        StyleBox["20", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[20, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{1.5921976056144214, 0.}, {2.4078023943855786, 19.},
+          RoundingRadius->0],
+         StatusArea[#, 19]& ,
+         TagBoxNote->"19"],
+        StyleBox["19", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[19, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{2.5921976056144214, 0.}, {3.4078023943855786, 18.},
+          RoundingRadius->0],
+         StatusArea[#, 18]& ,
+         TagBoxNote->"18"],
+        StyleBox["18", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[18, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{3.5921976056144214, 0.}, {4.407802394385579, 17.},
+          RoundingRadius->0],
+         StatusArea[#, 17]& ,
+         TagBoxNote->"17"],
+        StyleBox["17", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[17, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{4.592197605614421, 0.}, {5.407802394385579, 16.},
+          RoundingRadius->0],
+         StatusArea[#, 16]& ,
+         TagBoxNote->"16"],
+        StyleBox["16", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[16, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{5.592197605614421, 0.}, {6.407802394385579, 15.},
+          RoundingRadius->0],
+         StatusArea[#, 15]& ,
+         TagBoxNote->"15"],
+        StyleBox["15", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[15, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{6.592197605614421, 0.}, {7.407802394385579, 14.},
+          RoundingRadius->0],
+         StatusArea[#, 14]& ,
+         TagBoxNote->"14"],
+        StyleBox["14", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[14, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{7.592197605614421, 0.}, {8.407802394385579, 13.},
+          RoundingRadius->0],
+         StatusArea[#, 13]& ,
+         TagBoxNote->"13"],
+        StyleBox["13", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[13, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{8.592197605614421, 0.}, {9.407802394385579, 12.},
+          RoundingRadius->0],
+         StatusArea[#, 12]& ,
+         TagBoxNote->"12"],
+        StyleBox["12", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[12, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{9.592197605614421, 0.}, {10.407802394385579, 11.},
+          RoundingRadius->0],
+         StatusArea[#, 11]& ,
+         TagBoxNote->"11"],
+        StyleBox["11", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[11, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{10.592197605614421, 0.}, {11.407802394385579, 10.},
+          RoundingRadius->0],
+         StatusArea[#, 10]& ,
+         TagBoxNote->"10"],
+        StyleBox["10", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[10, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{11.592197605614421, 0.}, {12.407802394385579, 9.},
+          RoundingRadius->0],
+         StatusArea[#, 9]& ,
+         TagBoxNote->"9"],
+        StyleBox["9", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[9, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{12.592197605614421, 0.}, {13.407802394385579, 8.},
+          RoundingRadius->0],
+         StatusArea[#, 8]& ,
+         TagBoxNote->"8"],
+        StyleBox["8", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[8, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{13.592197605614421, 0.}, {14.407802394385579, 7.},
+          RoundingRadius->0],
+         StatusArea[#, 7]& ,
+         TagBoxNote->"7"],
+        StyleBox["7", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[7, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{14.592197605614421, 0.}, {15.407802394385579, 6.},
+          RoundingRadius->0],
+         StatusArea[#, 6]& ,
+         TagBoxNote->"6"],
+        StyleBox["6", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[6, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{15.592197605614421, 0.}, {16.407802394385577, 5.},
+          RoundingRadius->0],
+         StatusArea[#, 5]& ,
+         TagBoxNote->"5"],
+        StyleBox["5", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[5, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{16.59219760561442, 0.}, {17.407802394385577, 4.},
+          RoundingRadius->0],
+         StatusArea[#, 4]& ,
+         TagBoxNote->"4"],
+        StyleBox["4", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[4, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{17.59219760561442, 0.}, {18.407802394385577, 3.},
+          RoundingRadius->0],
+         StatusArea[#, 3]& ,
+         TagBoxNote->"3"],
+        StyleBox["3", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[3, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{18.59219760561442, 0.}, {19.407802394385577, 2.},
+          RoundingRadius->0],
+         StatusArea[#, 2]& ,
+         TagBoxNote->"2"],
+        StyleBox["2", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[2, {}], "Tooltip"]& ]}, 
+     {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{Opacity[
+      0.5599999999999999], Thickness[Small]}], 
+      TagBox[
+       TooltipBox[
+        TagBox[RectangleBox[{19.59219760561442, 0.}, {20.407802394385577, 1.},
+          RoundingRadius->0],
+         StatusArea[#, 1]& ,
+         TagBoxNote->"1"],
+        StyleBox["1", {}, StripOnInput -> False]],
+       Annotation[#, 
+        Style[1, {}], "Tooltip"]& ]}}, {}, {}}, {}, {}, {}, {}, 
+   StyleBox[{
+     {Thickness[Tiny], 
+      LineBox[{{0.19588550983899827`, 0.}, {20.812040732076508`, 0.}}], 
+      StyleBox[{}, "GraphicsLabel",
+       StripOnInput->False]}, 
+     StyleBox[{
+       {Thickness[Tiny], 
+        LineBox[{{0.5921976056144214, 0.}, 
+          Offset[{-1.102182119232618*^-15, -6.}, {0.5921976056144214, 0.}]}], 
+        LineBox[{{20.407802394385577`, 0.}, 
+          Offset[{-1.102182119232618*^-15, -6.}, {20.407802394385577`, 
+           0.}]}], {{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, \
+{}, {}, {}, {}, {}, {}, {}, {}}}, 
+       StyleBox[{}, "GraphicsLabel",
+        StripOnInput->False]}, "GraphicsTicks",
+      StripOnInput->False]}, "GraphicsAxes",
+    StripOnInput->False,
+    Antialiasing->False]},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{False, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0.19588550983899827`, 0.},
+  CoordinatesToolOptions:>{"DisplayFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+      Identity[
+       Part[#, 1]], 
+      Identity[
+       Part[#, 2]]}& )},
+  DisplayFunction->Identity,
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{All, All}, {All, All}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{None, Automatic}]], "ExerciseOutput",ExpressionUUID->"6d296518-1605-\
+42f2-9df1-72dae866df2f"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"BarChart", "[", 
+  RowBox[{"Reverse", "[", 
+   RowBox[{"Range", "[", "20", "]"}], "]"}], "]"}]], "Input",ExpressionUUID->\
+"340f5993-e8a7-4e21-adf2-a4655ad20298"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"95e981b6-6d5f-4441-bb28-6e0a497b5f41"],
+
+Cell[CellGroupData[{
+
+Cell["Display numbers from 1 to 5 in a column.", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"4.4\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"0fa8e660-22b3-45cf-9513-336671da800a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"72351ce9-326d-46f9-828e-cd988737ee51"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"1"},
+    {"2"},
+    {"3"},
+    {"4"},
+    {"5"}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "ExerciseOutput",ExpressionUUID->"fc73877c-bfd5-476c-a7bd-\
+66f2749eabb2"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Range", "[", "5", "]"}], "]"}]], "Input",ExpressionUUID->"5f002ce3-\
+d047-4c33-ae98-d6704c5240e8"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"b5797cf2-2e42-4348-a766-b6d3fc77c870"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Make a number line plot of the squares ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"{", 
+    RowBox[{"1", ",", "4", ",", "9", ",", "16", ",", "25"}], "}"}], 
+   TraditionalForm]],ExpressionUUID->"99a1f8db-4f41-4273-ba87-a134351b4be5"],
+ "."
+}], "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"4.5\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"816dc8a7-af94-418c-81b7-98f83fdc868c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"1193c498-2732-4af4-bd7a-7950bd953351"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{1, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{4, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{9, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{16, 1}]}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[Medium], 
+    AbsoluteThickness[1.6], PointBox[{25, 1}]}},
+  AspectRatio->NCache[Rational[1, 10]/GoldenRatio, 0.06180339887498948],
+  Axes->{True, False},
+  AxesLabel->{None},
+  AxesOrigin->{Automatic, Automatic},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  ImagePadding->All,
+  PlotRange->{{1., 25.}, {0, 1}},
+  PlotRangePadding->{{
+     Scaled[0.1], 
+     Scaled[0.1]}, {0, 1}},
+  Ticks->{Automatic, Automatic}]], "ExerciseOutput",ExpressionUUID->"40e9f33d-\
+0985-4735-85aa-f4ee100b8861"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"NumberLinePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "4", ",", "9", ",", "16", ",", "25"}], "}"}], 
+  "]"}]], "Input",ExpressionUUID->"64a95a01-7ea0-40ee-864d-0f81d7be7104"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{}, {}, 
+    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      NCache[
+       Rational[7, 360], 0.019444444444444445`]], AbsoluteThickness[1.6], 
+     LineBox[{{1., 1.}, {2., 4.}, {3., 9.}, {4., 16.}, {5., 
+      25.}}]}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 5.}, {0, 25.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",ExpressionUUID->"39081226-7174-\
+4faa-9f3c-ae6e87d4f359"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"ed4bdb73-d661-47c5-9c04-430f21447515"],
+
+Cell[CellGroupData[{
+
+Cell["Make a pie chart with 10 identical segments, each of size 1.", \
+"Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     StyleBox[
+     "\"4.6\"", "ExerciseNumber", ShowStringCharacters -> False, StripOnInput -> 
+      False], Alignment -> Right, ContentPadding -> False, FrameMargins -> 
+     False, ImageSizeAction -> "ShrinkToFit", BaseStyle -> "ExerciseNumber"]],
+    ShowStringCharacters -> 
+   False],ExpressionUUID->"e346c5f1-7ec1-40e4-9b41-da55fac94381"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"d44fc3fc-0164-4a7b-8d48-d5dbb15cbb9b"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, 
+   DynamicModuleBox[{DynamicChart`click$847813$848051 = False, 
+    DynamicChart`click$847819$848051 = False, 
+    DynamicChart`click$847825$848051 = False, 
+    DynamicChart`click$847831$848051 = False, 
+    DynamicChart`click$847837$848051 = False, 
+    DynamicChart`click$847843$848051 = False, 
+    DynamicChart`click$847849$848051 = False, 
+    DynamicChart`click$847855$848051 = False, 
+    DynamicChart`click$847861$848051 = False, 
+    DynamicChart`click$847867$848051 = False}, {
+     {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
+         {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {2.5132741228718345`, 
+                    3.141592653589793}]},
+                  
+                  ImageSizeCache->{{31.585786437626894`, 
+                   181.41421356237308`}, {-89.81864564936666, \
+-0.5857864376268793}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847813$848051, 
+                 FEPrivate`Not[DynamicChart`click$847813$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847813$848051, {{{1., 0.}, {0., 
+               1.}}, {-0.1902113032590307, 0.06180339887498951}}, {{1, 0}, {0,
+               1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847813$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.99048, 0.6546373333333334, 0.2701484444444444], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.8849555921538759`, 
+                    2.5132741228718345`}]},
+                  
+                  ImageSizeCache->{{59.66028826450963, 
+                   181.4142135623731}, {-143.21952145776066`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847819$848051, 
+                 FEPrivate`Not[DynamicChart`click$847819$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847819$848051, {{{1., 0.}, {0., 
+               1.}}, {-0.11755705045849461`, 0.1618033988749895}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847819$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.998096, 0.5661274666666667, 0.2140296888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {1.256637061435917, 
+                    1.8849555921538759`}]},
+                  
+                  ImageSizeCache->{{133.16028826450963`, 
+                   226.8397117354904}, {-150.41421356237308`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847825$848051, 
+                 FEPrivate`Not[DynamicChart`click$847825$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847825$848051, {{{1., 0.}, {0., 1.}}, {
+               1.2246467991473531`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {0,
+               1}}], TrackedSymbols :> {DynamicChart`click$847825$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.928, 0.5210666666666667, 0.2], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 1., {0.6283185307179586, 
+                    1.256637061435917}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   300.33971173549037`}, {-143.21952145776064`, \
+-0.5857864376268935}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847831$848051, 
+                 FEPrivate`Not[DynamicChart`click$847831$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847831$848051, {{{1., 0.}, {0., 1.}}, {
+               0.11755705045849466`, 0.16180339887498948`}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847831$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.8320000000000001, 0.49048888888888886`, 0.2], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   DiskBox[{0, 0}, 1., {0., 0.6283185307179586}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   328.4142135623731}, {-89.81864564936664, \
+-0.5857864376268793}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847837$848051, 
+                 FEPrivate`Not[DynamicChart`click$847837$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847837$848051, {{{1., 0.}, {0., 1.}}, {
+               0.1902113032590307, 0.06180339887498948}}, {{1, 0}, {0, 1}}, {{
+              1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847837$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.7598801777777778, 0.4773333333333333, 0.3161064888888889], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   DiskBox[{0, 0}, 1., {-0.6283185307179591, 0.}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   328.4142135623731}, {-3.4142135623730923`, 
+                   85.81864564936672}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847843$848051, 
+                 FEPrivate`Not[DynamicChart`click$847843$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847843$848051, {{{1., 0.}, {0., 1.}}, {
+               0.1902113032590307, -0.06180339887498953}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847843$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.7116405333333333, 0.4816, 0.5483194666666666], EdgeForm[{
+          GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-1.2566370614359172`, -0.6283185307179591}]},
+                  
+                  ImageSizeCache->{{178.5857864376269, 
+                   300.33971173549037`}, {-3.414213562373078, 
+                   139.21952145776066`}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847849$848051, 
+                 FEPrivate`Not[DynamicChart`click$847849$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847849$848051, {{{1., 0.}, {0., 1.}}, {
+               0.11755705045849461`, -0.1618033988749895}}, {{1, 0}, {0, 
+              1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847849$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.6558762666666667, 0.4926222222222222, 0.7345293333333333], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   DiskBox[{0, 0}, 
+                    1., {-1.8849555921538759`, -1.2566370614359172`}]},
+                  
+                  ImageSizeCache->{{133.16028826450963`, 
+                   226.83971173549034`}, {-3.414213562373078, 
+                   146.4142135623731}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847855$848051, 
+                 FEPrivate`Not[DynamicChart`click$847855$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847855$848051, {{{1., 0.}, {0., 1.}}, {
+               1.2246467991473531`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+              0, 1}}], TrackedSymbols :> {DynamicChart`click$847855$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[
+          0.5775381333333334, 0.5239111111111111, 0.7827298666666667], 
+          EdgeForm[{GrayLevel[0], Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-2.5132741228718345`, -1.8849555921538759`}]},
+                  
+                  ImageSizeCache->{{59.66028826450963, 
+                   181.4142135623731}, {-3.414213562373078, 
+                   139.2195214577607}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847861$848051, 
+                 FEPrivate`Not[DynamicChart`click$847861$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847861$848051, {{{1., 0.}, {0., 
+               1.}}, {-0.11755705045849461`, -0.1618033988749895}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847861$848051}]],
+           "DelayedClickEffect"]}, 
+         {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+          Opacity[0.5]}], 
+          TagBox[GeometricTransformationBox[
+            TagBox[
+             TagBox[
+              TooltipBox[
+               TagBox[
+                TagBox[
+                 DynamicBox[{
+                   FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                   
+                   DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -2.5132741228718345`}]},
+                  
+                  ImageSizeCache->{{31.585786437626894`, 
+                   181.41421356237308`}, {-3.4142135623730923`, 
+                   85.81864564936669}}],
+                 "DelayedMouseEffectStyle"],
+                StatusArea[#, 1]& ,
+                TagBoxNote->"1"],
+               StyleBox["1", {}, StripOnInput -> False]],
+              Annotation[#, 
+               Style[1, {}], "Tooltip"]& ],
+             
+             EventHandlerTag[{
+              "MouseClicked" :> 
+               FEPrivate`Set[DynamicChart`click$847867$848051, 
+                 FEPrivate`Not[DynamicChart`click$847867$848051]], 
+               PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+               True}]], Dynamic[
+            FEPrivate`If[
+             DynamicChart`click$847867$848051, {{{1., 0.}, {0., 
+               1.}}, {-0.1902113032590307, -0.06180339887498951}}, {{1, 0}, {
+              0, 1}}, {{1, 0}, {0, 1}}], 
+             TrackedSymbols :> {DynamicChart`click$847867$848051}]],
+           "DelayedClickEffect"]}}}, {}}, {}}, {{{
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847813$848051, 
+               FEPrivate`Not[DynamicChart`click$847813$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847813$848051, {{{1., 0.}, {0., 
+             1.}}, {-0.1902113032590307, 0.06180339887498951}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847813$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847819$848051, 
+               FEPrivate`Not[DynamicChart`click$847819$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847819$848051, {{{1., 0.}, {0., 
+             1.}}, {-0.11755705045849461`, 0.1618033988749895}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847819$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847825$848051, 
+               FEPrivate`Not[DynamicChart`click$847825$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847825$848051, {{{1., 0.}, {0., 1.}}, {
+             1.2246467991473531`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+            1}}], TrackedSymbols :> {DynamicChart`click$847825$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847831$848051, 
+               FEPrivate`Not[DynamicChart`click$847831$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847831$848051, {{{1., 0.}, {0., 1.}}, {
+             0.11755705045849466`, 0.16180339887498948`}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847831$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847837$848051, 
+               FEPrivate`Not[DynamicChart`click$847837$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847837$848051, {{{1., 0.}, {0., 1.}}, {
+             0.1902113032590307, 0.06180339887498948}}, {{1, 0}, {0, 1}}, {{1,
+             0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847837$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847843$848051, 
+               FEPrivate`Not[DynamicChart`click$847843$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847843$848051, {{{1., 0.}, {0., 1.}}, {
+             0.1902113032590307, -0.06180339887498953}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847843$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847849$848051, 
+               FEPrivate`Not[DynamicChart`click$847849$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847849$848051, {{{1., 0.}, {0., 1.}}, {
+             0.11755705045849461`, -0.1618033988749895}}, {{1, 0}, {0, 1}}, {{
+            1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847849$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847855$848051, 
+               FEPrivate`Not[DynamicChart`click$847855$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847855$848051, {{{1., 0.}, {0., 1.}}, {
+             1.2246467991473531`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+            1}}], TrackedSymbols :> {DynamicChart`click$847855$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847861$848051, 
+               FEPrivate`Not[DynamicChart`click$847861$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847861$848051, {{{1., 0.}, {0., 
+             1.}}, {-0.11755705045849461`, -0.1618033988749895}}, {{1, 0}, {0,
+             1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847861$848051}]],
+         "DelayedClickEffect"], 
+        TagBox[GeometricTransformationBox[
+          TagBox[
+           TagBox[
+            TooltipBox[
+             TagBox[{{}, {}},
+              StatusArea[#, 1]& ,
+              TagBoxNote->"1"],
+             StyleBox["1", {}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[1, {}], "Tooltip"]& ],
+           
+           EventHandlerTag[{
+            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$847867$848051, 
+               FEPrivate`Not[DynamicChart`click$847867$848051]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
+          FEPrivate`If[
+           DynamicChart`click$847867$848051, {{{1., 0.}, {0., 
+             1.}}, {-0.1902113032590307, -0.06180339887498951}}, {{1, 0}, {0, 
+            1}}, {{1, 0}, {0, 1}}], 
+           TrackedSymbols :> {DynamicChart`click$847867$848051}]],
+         "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+    DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+  ContentSelectable->False,
+  DisplayFunction->Identity,
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  PlotRange->{{-1., 1.}, {-1., 1.}},
+  PlotRangePadding->Scaled[0.09166666666666669]]], "ExerciseOutput",Expression\
+UUID->"c51c71e8-c3fa-44ea-8a96-9dc7e4185525"]
+}, {1}]],
+
+Cell[BoxData[
+ RowBox[{"PieChart", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", ",", "1", 
+    ",", "1", ",", "1"}], "}"}], "]"}]], "Input",ExpressionUUID->"756e73f7-\
+02a7-4f73-ae49-d3d72c7e788f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"7ed1054a-9a38-449b-9aa7-9884585eda9c"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Make a column of pie charts with 1, 2 and 3 identical segments.\
+\>", "Exercise",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{
+       TemplateBox[{1}, "Spacer1"], 
+       GraphicsBox[{
+         Thickness[0.037037037037037035`], 
+         FaceForm[{
+           RGBColor[1., 0.5019607843137255, 0.], 
+           Opacity[1.]}], 
+         FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+           0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{1, 4,
+            3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{1, 4, 3}, {1, 3, 3}, {1, 
+           3, 3}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0,
+            1, 0}, {0, 1, 0}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+           0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+           "], {{14.099998474121094`, 12.299999237060547`}, {
+           9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+           15.799999237060547`}, {6.299999237060547, 20.099998474121094`}, {
+           6.299999237060547, 24.399999618530273`}, {9.799999237060547, 
+           27.899999618530273`}, {14.099998474121094`, 27.899999618530273`}, {
+           18.400001525878906`, 27.899999618530273`}, {21.900001525878906`, 
+           24.399999618530273`}, {21.900001525878906`, 20.099998474121094`}, {
+           21.900001525878906`, 15.799999237060547`}, {18.400001525878906`, 
+           12.299999237060547`}, {14.099998474121094`, 
+           12.299999237060547`}}, {{14.099998474121094`, 26.19999885559082}, {
+           10.700000762939453`, 26.19999885559082}, {8., 23.5}, {8., 
+           20.099998474121094`}, {8., 16.700000762939453`}, {
+           10.700000762939453`, 14.}, {14.099998474121094`, 14.}, {17.5, 
+           14.}, {20.200000762939453`, 16.700000762939453`}, {
+           20.200000762939453`, 20.099998474121094`}, {20.200000762939453`, 
+           23.5}, {17.5, 26.19999885559082}, {14.099998474121094`, 
+           26.19999885559082}}, {{17.200000762939453`, 10.39999771118164}, {
+           15.5, 7.599998474121094}, {18.599998474121094`, 0.}, {
+           20.700000762939453`, 2.0999984741210938`}, {23.900001525878906`, 
+           2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+           17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+           8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+           7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 0.}, {
+           12.5, 7.599998474121094}, {10.799999237060547`, 
+           10.39999771118164}, {6.900001525878906, 8.700000762939453}}}]}, 
+        AspectRatio -> Automatic, ImageSize -> {27., 35.}, 
+        PlotRange -> {{0., 27.}, {0., 34.29999923706055}}], 
+       StyleBox[
+       "\"4.7\"", "ExerciseNumber", ShowStringCharacters -> False, 
+        StripOnInput -> False]}, "RowWithSeparator"], Alignment -> Right, 
+     ContentPadding -> False, FrameMargins -> False, ImageSizeAction -> 
+     "ShrinkToFit", BaseStyle -> "ExerciseNumber", 
+     ImageSize -> {80, Automatic}]], ShowStringCharacters -> 
+   False],ExpressionUUID->"d2e098fa-4aac-4454-93f9-1ee008a7a6f8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ FormBox[
+  TagBox[
+   RowBox[{"Expected", " ", "Output", " ", "\[RightGuillemet]"}],
+   MouseAppearanceTag["LinkHand"]], 
+  ExerciseExpectedResult]], "ExerciseExpectedResult",ExpressionUUID->\
+"84e6bf4d-78c5-40b5-9a8b-d69674fea195"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$848483$848628 = False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, 
+            {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[0],
+              Opacity[0.5]}], 
+             TagBox[GeometricTransformationBox[
+               TagBox[
+                TagBox[
+                 TooltipBox[
+                  TagBox[
+                   TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 
+                    3.141592653589793}]},
+                    
+                    ImageSizeCache->{{15.5, 164.5}, {-76.50000000000001, 
+                    72.49999999999999}}],
+                    "DelayedMouseEffectStyle"],
+                   StatusArea[#, 1]& ,
+                   TagBoxNote->"1"],
+                  StyleBox["1", {}, StripOnInput -> False]],
+                 Annotation[#, 
+                  Style[1, {}], "Tooltip"]& ],
+                
+                EventHandlerTag[{
+                 "MouseClicked" :> 
+                  FEPrivate`Set[DynamicChart`click$848483$848628, 
+                    FEPrivate`Not[DynamicChart`click$848483$848628]], 
+                  PassEventsDown -> True, Method -> "Preemptive", 
+                  PassEventsUp -> True}]], Dynamic[
+               FEPrivate`If[
+                DynamicChart`click$848483$848628, {{{1., 0.}, {0., 1.}}, {0.2,
+                   0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                TrackedSymbols :> {DynamicChart`click$848483$848628}]],
+              "DelayedClickEffect"]}}, {}}, {}}, {{
+           TagBox[GeometricTransformationBox[
+             TagBox[
+              TagBox[
+               TooltipBox[
+                TagBox[{{}, {}},
+                 StatusArea[#, 1]& ,
+                 TagBoxNote->"1"],
+                StyleBox["1", {}, StripOnInput -> False]],
+               Annotation[#, 
+                Style[1, {}], "Tooltip"]& ],
+              
+              EventHandlerTag[{
+               "MouseClicked" :> 
+                FEPrivate`Set[DynamicChart`click$848483$848628, 
+                  FEPrivate`Not[DynamicChart`click$848483$848628]], 
+                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                True}]], Dynamic[
+             FEPrivate`If[
+              DynamicChart`click$848483$848628, {{{1., 0.}, {0., 1.}}, {0.2, 
+                0.}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+              TrackedSymbols :> {DynamicChart`click$848483$848628}]],
+            "DelayedClickEffect"], {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.09166666666666669]]},
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$848525$848629 = False, 
+        DynamicChart`click$848531$848629 = False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, {
+             {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {0., 3.141592653589793}]},
+                    
+                    ImageSizeCache->{{15.085786437626894`, 
+                    164.91421356237308`}, {-76.91421356237312, \
+-0.5857864376269077}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$848525$848629, 
+                    FEPrivate`Not[DynamicChart`click$848525$848629]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$848525$848629, {{{1., 0.}, {0., 1.}}, {
+                   1.2246467991473531`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                  0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$848525$848629}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+              Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    DiskBox[{0, 0}, 1., {-3.141592653589793, 0.}]},
+                    
+                    ImageSizeCache->{{15.085786437626894`, 
+                    164.91421356237308`}, {-3.4142135623731207`, 
+                    72.91421356237309}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$848531$848629, 
+                    FEPrivate`Not[DynamicChart`click$848531$848629]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$848531$848629, {{{1., 0.}, {0., 1.}}, {
+                   1.2246467991473531`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                  0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$848531$848629}]],
+               "DelayedClickEffect"]}}}, {}}, {}}, {{{
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$848525$848629, 
+                   FEPrivate`Not[DynamicChart`click$848525$848629]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$848525$848629, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473531`*^-17, 0.2}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+                0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$848525$848629}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$848531$848629, 
+                   FEPrivate`Not[DynamicChart`click$848531$848629]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$848531$848629, {{{1., 0.}, {0., 1.}}, {
+                 1.2246467991473531`*^-17, -0.2}}, {{1, 0}, {0, 1}}, {{1, 
+                0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$848531$848629}]],
+             "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.09166666666666669]]},
+    {
+     GraphicsBox[{{}, {}, 
+       DynamicModuleBox[{DynamicChart`click$848579$848630 = False, 
+        DynamicChart`click$848585$848630 = False, 
+        DynamicChart`click$848591$848630 = False}, {
+         {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[
+          0.5]}], {{{}, {
+             {RGBColor[0.982864, 0.7431472, 0.3262672], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {1.0471975511965979`, 
+                    3.141592653589793}]},
+                    
+                    ImageSizeCache->{{15.085786437626904`, 
+                    128.16421356237308`}, {-76.9142135623731, \
+-0.5857864376269255}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$848579$848630, 
+                    FEPrivate`Not[DynamicChart`click$848579$848630]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$848579$848630, {{{1., 0.}, {0., 
+                   1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+                  0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$848579$848630}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.784, 0.47519999999999996`, 0.2], EdgeForm[{GrayLevel[
+              0], Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 1., {-1.0471975511965974`, 
+                    1.0471975511965979`}]},
+                    
+                    ImageSizeCache->{{88.5857864376269, 
+                    164.9142135623731}, {-67.06708074052938, 
+                    63.06708074052932}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$848585$848630, 
+                    FEPrivate`Not[DynamicChart`click$848585$848630]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$848585$848630, {{{1., 0.}, {0., 1.}}, {
+                   0.2, 4.440892098500628*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {
+                  0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$848585$848630}]],
+               "DelayedClickEffect"]}, 
+             {RGBColor[0.4992, 0.5552, 0.8309304], EdgeForm[{GrayLevel[0], 
+              Opacity[0.5]}], 
+              TagBox[GeometricTransformationBox[
+                TagBox[
+                 TagBox[
+                  TooltipBox[
+                   TagBox[
+                    TagBox[
+                    DynamicBox[{
+                    FEPrivate`If[
+                    CurrentValue["MouseOver"], 
+                    EdgeForm[{
+                    GrayLevel[0.5], 
+                    AbsoluteThickness[2.5], 
+                    Opacity[0.66]}], {}, {}], 
+                    
+                    DiskBox[{0, 0}, 
+                    1., {-3.141592653589793, -1.0471975511965974`}]},
+                    
+                    ImageSizeCache->{{15.085786437626904`, 
+                    128.1642135623731}, {-3.4142135623731065`, 
+                    72.91421356237308}}],
+                    "DelayedMouseEffectStyle"],
+                    StatusArea[#, 1]& ,
+                    TagBoxNote->"1"],
+                   StyleBox["1", {}, StripOnInput -> False]],
+                  Annotation[#, 
+                   Style[1, {}], "Tooltip"]& ],
+                 
+                 EventHandlerTag[{
+                  "MouseClicked" :> 
+                   FEPrivate`Set[DynamicChart`click$848591$848630, 
+                    FEPrivate`Not[DynamicChart`click$848591$848630]], 
+                   PassEventsDown -> True, Method -> "Preemptive", 
+                   PassEventsUp -> True}]], Dynamic[
+                FEPrivate`If[
+                 DynamicChart`click$848591$848630, {{{1., 0.}, {0., 
+                   1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+                  0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+                 TrackedSymbols :> {DynamicChart`click$848591$848630}]],
+               "DelayedClickEffect"]}}}, {}}, {}}, {{{
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$848579$848630, 
+                   FEPrivate`Not[DynamicChart`click$848579$848630]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$848579$848630, {{{1., 0.}, {0., 
+                 1.}}, {-0.10000000000000003`, 0.17320508075688773`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$848579$848630}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$848585$848630, 
+                   FEPrivate`Not[DynamicChart`click$848585$848630]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$848585$848630, {{{1., 0.}, {0., 1.}}, {0.2, 
+                 4.440892098500628*^-17}}, {{1, 0}, {0, 1}}, {{1, 0}, {0, 
+                1}}], TrackedSymbols :> {DynamicChart`click$848585$848630}]],
+             "DelayedClickEffect"], 
+            TagBox[GeometricTransformationBox[
+              TagBox[
+               TagBox[
+                TooltipBox[
+                 TagBox[{{}, {}},
+                  StatusArea[#, 1]& ,
+                  TagBoxNote->"1"],
+                 StyleBox["1", {}, StripOnInput -> False]],
+                Annotation[#, 
+                 Style[1, {}], "Tooltip"]& ],
+               
+               EventHandlerTag[{
+                "MouseClicked" :> 
+                 FEPrivate`Set[DynamicChart`click$848591$848630, 
+                   FEPrivate`Not[DynamicChart`click$848591$848630]], 
+                 PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+                 True}]], Dynamic[
+              FEPrivate`If[
+               DynamicChart`click$848591$848630, {{{1., 0.}, {0., 
+                 1.}}, {-0.09999999999999996, -0.17320508075688779`}}, {{1, 
+                0}, {0, 1}}, {{1, 0}, {0, 1}}], 
+               TrackedSymbols :> {DynamicChart`click$848591$848630}]],
+             "DelayedClickEffect"]}, {}}, {}}, {}, {}},
+        DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
+      ContentSelectable->False,
+      DisplayFunction->Identity,
+      GridLinesStyle->Directive[
+        GrayLevel[0.5, 0.4]],
+      PlotRange->{{-1., 1.}, {-1., 1.}},
+      PlotRangePadding->Scaled[0.09166666666666669]]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "ExerciseOutput",ExpressionUUID->"be018b42-d5c5-4400-ab9e-\
+165f11b10eb4"]
+}, {1}]],
+
+Cell[BoxData[
+ ButtonBox[
+  TagBox[
+   PaneBox[
+    StyleBox["",
+     BoxID -> "EnterCodeButtonContent"],
+    ImageSize->Full],
+   MouseAppearanceTag["LinkHand"]],
+  Appearance->None,
+  ButtonFunction:>(SelectionMove[
+     InputNotebook[], All, ButtonCell]; NotebookWrite[
+     InputNotebook[], 
+     Cell[
+      BoxData[""], "Input"]]; SelectionMove[
+     InputNotebook[], Before, CellContents]; Null),
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "BlankInput",ExpressionUUID->"a621ff65-c20b-4e1a-\
+a61c-3250d9780d09"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ PaneBox["",
+  ImageSize->Full]], "CodeSectionDividerCloud",ExpressionUUID->"c450caa8-a232-4279-8871-953cfca42530"]
+},
+Editable->True,
+Saveable->True,
+ScreenStyleEnvironment->"Working",
+WindowToolbars->{},
+CellInsertionPointCell->None,
+WindowSize->{1024, 768},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"4 | Exercises: Displaying Lists",
+DockedCells->Cell[
+  TagBox[
+   GridBox[{{
+      PaneBox[
+      "\"4 | Exercises: Displaying Lists\"", ImageSize -> Full, 
+       ImageMargins -> {{15, 10}, {4, 0}}], 
+      ButtonBox[
+      "\"Download Notebook \[RightGuillemet]\"", ButtonFunction :> 
+       FrontEndExecute[{
+          NotebookLocate[{
+            URL[
+             URLBuild[{$CloudBase, "files", 
+               Information[$EvaluationCloudObject, "UUID"]}, {
+              "contentDisposition" -> "attachment"}]], None}]}], Method -> 
+       "Queued", Appearance -> None, 
+       BaseStyle -> {"ExerciseDockedCell", FontSize -> 13}, Evaluator -> 
+       Automatic]}, {
+      PaneBox[
+       StyleBox[
+        TemplateBox[{"\"Correctly answer \"", 
+          StyleBox["\"50%\"", FontWeight -> Bold, StripOnInput -> False], 
+          "\" of labeled exercises (\"", 
+          GraphicsBox[{
+            Thickness[0.037037037037037035`], 
+            FaceForm[{
+              RGBColor[1., 0.5019607843137255, 0.], 
+              Opacity[1.]}], 
+            
+            FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 
+              1, 0}, {0, 1, 0}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+              3}}, {{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 3}}, {{0, 2, 0}, {
+              0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}, {{0, 2, 
+              0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+              0}}}, {CompressedData["
+1:eJxdUltqAlEMDV1CP3yAH1pEsHRQiTNapZ3b/351BSJ4f93CLMANuA430AVM
+V1HoGvySnklyS6aB4XAmN4+TZLQ/fhzuiGiKr0FY4MsqAKtzfxmUbxrcxWj/
+z1vj6wY/63fxD/kivIo/ufFn5bFQzq9BKlSFYWnxuXIqtR4v7P2L/P+qM313
+CsKZn7T+5M38j//8k1Y80cDnh7/r60NPt9Ufc9/3TzHeSslfiz5a8nep8WvL
+ezW+Mn7v55f8iJ/7eNSd+fywma8Py9r90tj0diR/jCOvD/kevP4/tPkAB35+
+sJ7FZd6Pvhc+HvvIff60T3Cpj/0V9n6sft0/uO1N7yPpS/eT9Kf7SvNp3d8v
+jEB5qQ==
+              "], {{14.099998474121094`, 12.299999237060547`}, {
+              9.799999237060547, 12.299999237060547`}, {6.299999237060547, 
+              15.799999237060547`}, {6.299999237060547, 
+              20.099998474121094`}, {6.299999237060547, 
+              24.399999618530273`}, {9.799999237060547, 
+              27.899999618530273`}, {14.099998474121094`, 
+              27.899999618530273`}, {18.400001525878906`, 
+              27.899999618530273`}, {21.900001525878906`, 
+              24.399999618530273`}, {21.900001525878906`, 
+              20.099998474121094`}, {21.900001525878906`, 
+              15.799999237060547`}, {18.400001525878906`, 
+              12.299999237060547`}, {14.099998474121094`, 
+              12.299999237060547`}}, {{14.099998474121094`, 
+              26.19999885559082}, {10.700000762939453`, 26.19999885559082}, {
+              8., 23.5}, {8., 20.099998474121094`}, {8., 
+              16.700000762939453`}, {10.700000762939453`, 14.}, {
+              14.099998474121094`, 14.}, {17.5, 14.}, {20.200000762939453`, 
+              16.700000762939453`}, {20.200000762939453`, 
+              20.099998474121094`}, {20.200000762939453`, 23.5}, {17.5, 
+              26.19999885559082}, {14.099998474121094`, 
+              26.19999885559082}}, {{17.200000762939453`, 
+              10.39999771118164}, {15.5, 7.599998474121094}, {
+              18.599998474121094`, 0.}, {20.700000762939453`, 
+              2.0999984741210938`}, {23.900001525878906`, 
+              2.200000762939453}, {21.099998474121094`, 8.700000762939453}, {
+              17.200000762939453`, 10.39999771118164}}, {{6.900001525878906, 
+              8.700000762939453}, {4.100000381469727, 2.200000762939453}, {
+              7.299999237060547, 2.0999984741210938`}, {9.400001525878906, 
+              0.}, {12.5, 7.599998474121094}, {10.799999237060547`, 
+              10.39999771118164}, {6.900001525878906, 
+              8.700000762939453}}}]}, {
+           ImageSize -> {Automatic, 20}, AspectRatio -> Automatic, 
+            ImageSize -> {27., 35.}, 
+            PlotRange -> {{0., 27.}, {0., 34.29999923706055}}}], 
+          "\") to earn Level 1 certification.\""}, "RowDefault"], 
+        "ExerciseFirstCell", CellMargins -> {{55, 10}, {30, 6}}, FontSize -> 
+        14, FontColor -> RGBColor[
+          Rational[64, 255], 
+          Rational[25, 51], 
+          Rational[128, 255]], ExpressionUUID -> 
+        "3b1d133c-0aba-4ff3-8d23-e1e708b261d9", StripOnInput -> False], 
+       ImageSize -> Full, ImageMargins -> {{45, 10}, {4, 0}}], 
+      "\[SpanFromLeft]"}}, GridBoxAlignment -> {"Columns" -> {Left, Right}}, 
+    AutoDelete -> False, GridBoxFrame -> {"Columns" -> None, "Rows" -> None}, 
+    GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+    BaseStyle -> "ExerciseDockedCell"], "TextGrid"], "ExerciseDockedCell", 
+  ShowCellBracket -> False, FontSize -> 18, FontColor -> RGBColor[
+    Rational[22, 255], 
+    Rational[8, 51], 
+    Rational[21, 85]], Background -> RGBColor[
+    Rational[244, 255], 
+    Rational[50, 51], 1], ExpressionUUID -> 
+  "909a138a-6ed3-4e81-ac47-30f1ac325371"],
+ShowCellBracket->False,
+TaggingRules-><|
+ "SolutionResponseText" -> <|
+   "4.6" -> "", "4.7" -> "", "4.1" -> 
+    "Your answer is correct, but is it just copied from the answer key?", 
+    "4.2" -> "Your answer is correct, but is it just copied from the answer \
+key?", "4.3" -> 
+    "Your answer is correct, but is it just copied from the answer key?", 
+    "4.4" -> "Your answer is correct, but is it just copied from the answer \
+key?", "4.5" -> 
+    "Your answer is correct, but is it just copied from the answer key?"|>|>,
+CellContext->CellGroup,
+ShowCellTags->False,
+TrackCellChangeTimes->False,
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (August 22, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    StyleData["Notebook"], PageWidth -> WindowWidth, CellLabelAutoDelete -> 
+    True, ShowSyntaxStyles -> True, MenuSortingValue -> None], 
+   Cell[
+    CellGroupData[{
+      Cell["Custom Styles", "Section"], 
+      Cell[
+       CellGroupData[{
+         Cell["General", "Subsection"], 
+         Cell[
+          StyleData["Subsubsubsection"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}, FontSize -> 16, 
+          FontWeight -> "SemiBold", FontColor -> RGBColor[
+            Rational[244, 255], 
+            Rational[48, 85], 
+            Rational[5, 51]]], 
+         Cell[
+          StyleData["Subsubsubsubsection"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}, FontSize -> 14, 
+          FontWeight -> "SemiBold", 
+          FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> GrayLevel[
+            Rational[4, 15]]], 
+         Cell[
+          StyleData["Text"], CellMargins -> {{80, 10}, {4, 18}}, FontSize -> 
+          15, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Reference"], CellMargins -> {{80, 10}, {4, 18}}, 
+          FontSize -> 15, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["MathCaption"], CellMargins -> {{27, 12}, {2, 24}}, 
+          FontFamily -> "Source Sans Pro", FontSize -> 15, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["CodeText"], CellMargins -> {{80, 10}, {4, 18}}, FontSize -> 
+          15], 
+         Cell[
+          StyleData["Author"], CellMargins -> {{27, Inherited}, {6, 16}}], 
+         Cell[
+          StyleData["Affiliation"], 
+          CellMargins -> {{27, Inherited}, {6, 16}}], 
+         Cell[
+          StyleData["Link"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperLink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["Hyperlink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["FunctionLink"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperlinkActionNew"], FontColor -> RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]], 
+         Cell[
+          StyleData["HyperlinkActive"], FontColor -> RGBColor[
+            Rational[91, 255], 
+            Rational[178, 255], 
+            Rational[166, 255]]], 
+         Cell[
+          StyleData["Item"], CellDingbat -> 
+          StyleBox[
+           "\[FilledSmallSquare]", Alignment -> Baseline, FontColor -> 
+            RGBColor[0.9, 0.4, 0.]], CellMargins -> {{40, Inherited}, {3, 3}},
+           FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["Subitem"], CellDingbat -> 
+          StyleBox[
+           "\[FilledSmallSquare]", Alignment -> Baseline, FontColor -> 
+            RGBColor[
+             0.9568627450980393, 0.5647058823529412, 0.09803921568627451]], 
+          CellMargins -> {{60, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["Subsubitem"], CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.65, 0.65, 0.65]], 
+          CellMargins -> {{80, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["ItemNumbered"], CellMargins -> {{45, Inherited}, {3, 3}},
+           LineSpacing -> {1, -5}, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemNumbered"], 
+          CellMargins -> {{77, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemNumbered"], 
+          CellMargins -> {{107, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ItemRomanNumbered", StyleDefinitions -> StyleData["ItemNumbered"]],
+           CellDingbat -> Cell[
+            TextData[{
+              CounterBox[
+              "ItemRomanNumbered", CounterFunction -> RomanNumeral], "."}], 
+            FontWeight -> Bold], CounterIncrements -> "ItemRomanNumbered", 
+          FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["ItemParagraph"], 
+          CellMargins -> {{40, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubitemParagraph"], 
+          CellMargins -> {{60, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["SubsubitemParagraph"], 
+          CellMargins -> {{80, Inherited}, {3, 3}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["Input"], CellFrame -> 1, ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}, 
+          CellFrameMargins -> {{10, 0}, {3, 3}}, CellFrameColor -> 
+          GrayLevel[0.7], CellFrameLabels -> {{None, None}, {
+             
+             DynamicModuleBox[{$CellContext`exerciseCheck = 
+               Automatic, $CellContext`buttonLabel = "CHECK MY SOLUTION"}, 
+              DynamicBox[
+               ToBoxes[
+                Pane[
+                 Column[
+                  Flatten[{
+                    Graphics[Background -> None, ImageSize -> {80 - 22, 10}], 
+                    Row[{
+                    Graphics[Background -> None, ImageSize -> {80 - 22, 10}], 
+                    Which[$CellContext`exerciseCheck === Automatic, 
+                    MouseAppearance[
+                    Tooltip[
+                    Button[
+                    Framed[
+                    Panel[
+                    Style[$CellContext`buttonLabel, "SolutionCheckButton"], 
+                    Appearance -> None, Background -> GrayLevel[1], 
+                    FrameMargins -> {{2, 2}, {0, 0}}, ImageMargins -> 0], 
+                    FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0.9, 0.4, 0.]}, RoundingRadius -> 3], 
+                    
+                    Block[{$CellContext`exerciseNumber, \
+$CellContext`usersCell, $CellContext`usersCellString, \
+$CellContext`requesterIDData, $CellContext`solutionResult, \
+$CellContext`correctQ, $CellContext`destination, \
+$CellContext`solutionResponseText}, $CellContext`exerciseNumber = 
+                    "4" <> "." <> ToString[
+                    
+                    CurrentValue[{
+                    "CounterValue", "Exercise"}]]; $CellContext`buttonLabel = 
+                    Row[{"CHECKING", 
+                    ProgressIndicator[Appearance -> "Percolate"]}]; 
+                    SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> 
+                    False]; $CellContext`usersCell = NotebookRead[
+                    InputNotebook[]]; If[
+                    TrueQ[Length[
+                    Flatten[{$CellContext`usersCell}]] == 
+                    1], $CellContext`usersCellString = 
+                    ToString[$CellContext`usersCell, InputForm, 
+                    CharacterEncoding -> 
+                    "ASCII"]; $CellContext`requesterIDData = (If[
+                    AssociationQ[#], #, <||>]& )[
+                    Quiet[
+                    Check[
+                    ImportString[
+                    CloudObject`Private`authenticatedURLFetch[
+                    "https://www.wolframcloud.com/users/user-current/auth/\
+wolframuuid"], "RawJSON"], <||>]]]; $CellContext`solutionResult = Quiet[
+                    Catch[
+                    ToExpression[
+                    URLFetch[
+                    "https://www.wolframcloud.com/obj/online-courses/api/\
+exercise/check", Method -> "POST", 
+                    "Parameters" -> {
+                    "course" -> 
+                    "an-elementary-introduction-to-the-wolfram-language", 
+                    "exNum" -> $CellContext`exerciseNumber, 
+                    "answer" -> $CellContext`usersCellString, "id" -> 
+                    ToString[$RequesterCloudUserID], "uuid" -> 
+                    ToString[$RequesterCloudUserUUID], "name" -> ReplaceAll[
+                    StringTrim[
+                    Lookup[$CellContext`requesterIDData, "firstname", ""] <> 
+                    " " <> Lookup[$CellContext`requesterIDData, "lastname", 
+                    ""]], "" -> Missing[]]}]], $Failed]]; If[
+                    
+                    AssociationQ[$CellContext`solutionResult], \
+$CellContext`correctQ = $CellContext`solutionResult["CorrectQ"]; If[
+                    StringQ[
+                    $CellContext`solutionResult["Text"]], 
+                    SetOptions[
+                    EvaluationNotebook[], TaggingRules -> 
+                    MapAt[Append[#, $CellContext`exerciseNumber -> \
+$CellContext`solutionResult["Text"]]& , 
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "SolutionResponseText"]]]; $CellContext`exerciseCheck = 
+                    TrueQ[$CellContext`correctQ]; Null, 
+                    MessageDialog[
+                    "Unfortunately, something went wrong with grading.", 
+                    WindowFrame -> "ModalDialog"]; $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic; Null]; Null, 
+                    MessageDialog[
+                    "Select a cell to be checked.", WindowFrame -> 
+                    "ModalDialog"]; $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic; Null]; Null], Appearance -> None, Evaluator -> 
+                    Automatic, Method -> "Queued", 
+                    ImageMargins -> {{0, 0}, {30, 24}}], 
+                    "Click to check your solution.", TooltipDelay -> 0.15], 
+                    "LinkHand"], 
+                    TrueQ[$CellContext`exerciseCheck], 
+                    MouseAppearance[
+                    Button[
+                    Framed[
+                    Row[{
+                    Panel[
+                    Style[
+                    Graphics[{
+                    Thickness[0.038461538461538464`], {
+                    FaceForm[{
+                    RGBColor[0., 0.6666666666666666, 0.], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{0., 20.}, {26., 20.}, {26., 0.}, {0., 0.}, {0., 
+                    20.}}}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Thickness[0.019230769230769232`], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}, {0, 1, 0}}}, {{{
+                    7.701599597930908, 9.291000366210938}, {11.4891996383667, 
+                    5.503400802612305}, {17.801599502563477`, 
+                    13.709400177001953`}}}, CurveClosed -> {0}]}}, 
+                    AspectRatio -> Automatic, ImageSize -> {26., 20.}, 
+                    PlotRange -> {{0., 26.}, {0., 20.}}], Selectable -> 
+                    False], Background -> RGBColor[0, 
+                    Rational[2, 3], 0], FrameMargins -> {{5, 5}, {0, 0}}, 
+                    ImageMargins -> 0, Appearance -> None], 
+                    Panel[
+                    Style["CORRECT", "SolutionCheckButtonTrue"], Background -> 
+                    GrayLevel[1], FrameMargins -> {{5, 5}, {0, 0}}, 
+                    Appearance -> None]}], FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0, 
+                    Rational[2, 3], 0]}, FrameMargins -> 0, RoundingRadius -> 
+                    3], $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic, Appearance -> None, 
+                    ImageMargins -> {{0, 0}, {30, 24}}], "LinkHand"], True, 
+                    MouseAppearance[
+                    Button[
+                    Framed[
+                    Row[{
+                    Panel[
+                    Style[
+                    Graphics[{
+                    Thickness[0.045454545454545456`], {
+                    FaceForm[{
+                    RGBColor[1., 0., 0.], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurve[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{0., 20.}, {22., 20.}, {22., 0.}, {0., 0.}, {0., 
+                    20.}}}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}}}, {{{6., 15.}, {16., 5.}}}, 
+                    CurveClosed -> {0}]}, {
+                    RGBColor[1., 1., 1.], 
+                    Opacity[1.], 
+                    CapForm["Butt"], 
+                    JoinForm[{"Miter", 1.}], 
+                    
+                    JoinedCurve[{{{0, 2, 0}}}, {{{16., 15.}, {6., 5.}}}, 
+                    CurveClosed -> {0}]}}, AspectRatio -> Automatic, 
+                    ImageSize -> {22., 20.}, 
+                    PlotRange -> {{0., 22.}, {0., 20.}}], Selectable -> 
+                    False], Background -> RGBColor[1, 0, 0], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, ImageMargins -> 0, 
+                    Appearance -> None], 
+                    Panel[
+                    Style["TRY AGAIN", "SolutionCheckButtonFalse"], 
+                    Background -> GrayLevel[1], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, Appearance -> None]}], 
+                    FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[1, 0, 0]}, FrameMargins -> 0, RoundingRadius -> 
+                    3], $CellContext`buttonLabel = 
+                    "CHECK MY SOLUTION"; $CellContext`exerciseCheck = 
+                    Automatic, Appearance -> None, 
+                    ImageMargins -> {{0, 0}, {30, 24}}], "LinkHand"]]}], 
+                    If[
+                    And[
+                    AssociationQ[$CellContext`solutionResult], 
+                    StringQ[
+                    $CellContext`solutionResult["Text"]]], {
+                    Spacer[0], 
+                    TextCell[
+                    $CellContext`solutionResult["Text"], "SolutionResponse"]},
+                     Nothing], 
+                    Graphics[
+                    Background -> None, ImageSize -> {Automatic, 10}]}], 
+                  Spacings -> {0, Automatic}], ImageSize -> Full], 
+                StandardForm], ImageSizeCache -> {109, {9, 16}}], 
+              DynamicModuleValues :> {}], None}}], 
+         Cell[
+          StyleData["Output"], Deletable -> True, ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, CellEditDuplicate -> 
+          True, GeneratedCell -> True, CellAutoOverwrite -> True, 
+          LinebreakAdjustments -> {1, 2., 12., 1.25, 1.}], 
+         Cell[
+          StyleData["InputOnly"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["InputHidden", StyleDefinitions -> StyleData["Input"]], 
+          CellEpilog :> (SelectionMove[
+             EvaluationNotebook[], All, GeneratedCell]; 
+           FrontEndTokenExecute["SelectionCloseUnselectedCells"])], 
+         Cell[
+          StyleData["Code"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}, FontWeight -> 
+          "Plain"], 
+         Cell[
+          StyleData["Print"], 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["Echo"], ShowCellBracket -> True], 
+         Cell[
+          StyleData["EchoTiming"], ShowCellBracket -> True], 
+         Cell[
+          StyleData["InlineCode"], SpanMaxSize -> 0, FontWeight -> 
+          "SemiBold"], 
+         Cell[
+          StyleData[
+          "InlineCodeText", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData[
+          "InlineInput", StyleDefinitions -> StyleData["InlineCode"]]], 
+         Cell[
+          StyleData["InlineFormula"], ShowStringCharacters -> True, 
+          SpanMaxSize -> 0, FontWeight -> "SemiBold"], 
+         Cell[
+          StyleData["InlineMath"], SpanMaxSize -> 0], 
+         Cell[
+          StyleData["WolframAlphaShort"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["WolframAlphaLong"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["ExternalLanguage"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {24, Inherited}}], 
+         Cell[
+          StyleData["Message"], ShowCellBracket -> True, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}], 
+         Cell[
+          StyleData["ChatInput"], FontSize -> 14], 
+         Cell[
+          StyleData["SideChat"], FontSize -> 14], 
+         Cell[
+          StyleData["ChatSystemInput"], FontSize -> 14], 
+         Cell[
+          StyleData["ChatOutput"], FontSize -> 14], 
+         Cell[
+          StyleData["Separator"], CellFrame -> {{False, False}, {1.5, False}},
+           CellMargins -> {{70, Inherited}, {25, 0}}, CellFrameColor -> 
+          GrayLevel[0.66], MenuSortingValue -> 10000], 
+         Cell[
+          StyleData["ExerciseMark", StyleDefinitions -> StyleData["Text"]], 
+          FontColor -> GrayLevel[0.5]], 
+         Cell[
+          StyleData[
+          "ExperimentalInput", StyleDefinitions -> StyleData["Input"]], 
+          Editable -> True, CellFrame -> True, 
+          StyleKeyMapping -> {"=" -> "WolframAlphaShort", "*" -> "Item"}, 
+          CellFrameColor -> RGBColor[1, 0.43, 0.13], CellFrameLabels -> {{
+             Cell[
+              BoxData[
+               RotationBox["Experimental", BoxRotation -> 1.5708]], "Text", 
+              FontSize -> 10, FontColor -> RGBColor[1, 0.43, 0.13]], None}, {
+            None, None}}], 
+         Cell[
+          StyleData["KeyEvent"], CellFrame -> {{1, 1}, {1, 1}}, 
+          CellFrameMargins -> {{2, 2}, {2, 2}}, CellFrameColor -> 
+          GrayLevel[0.8], FontColor -> GrayLevel[0.36], Background -> 
+          GrayLevel[0.96]], 
+         Cell[
+          StyleData[
+          "InputButtonCell", StyleDefinitions -> StyleData["Input"]], 
+          StyleMenuListing -> None], 
+         Cell[
+          StyleData["CellLabel"], FontColor -> GrayLevel[0.6]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Exercise", "Subsection"], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseNumber", StyleDefinitions -> StyleData["Text"]], 
+             Editable -> False, Deletable -> False, FontSize -> 16, 
+             FontWeight -> "SemiBold", FontColor -> RGBColor[0.9, 0.4, 0.]], 
+            Cell[
+             StyleData["ExerciseNumber", "Printout"]]}, Closed]], 
+         Cell[
+          StyleData["Exercise", StyleDefinitions -> StyleData["Section"]], 
+          Editable -> False, Deletable -> False, CellFrame -> False, 
+          CellDingbat -> Cell[
+            TextData[{
+              StyleBox[
+               CounterBox["Chapter"], "ExerciseNumber"], 
+              StyleBox[".", "ExerciseNumber"], 
+              StyleBox[
+               CounterBox["Exercise"], "ExerciseNumber"]}]], ShowCellBracket -> 
+          False, ShowGroupOpener -> False, CellMargins -> {{80, 10}, {4, 18}},
+           CounterIncrements -> "Exercise", FontSize -> 16, FontColor -> 
+          GrayLevel[0.25]], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseInput", StyleDefinitions -> StyleData["Input"]], 
+             Editable -> False, Deletable -> False, CellFrame -> 0, 
+             CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+             ShowCellLabel -> False, 
+             CellFrameLabels -> {{None, None}, {None, None}}, SpanMaxSize -> 
+             1, $CellContext`GeneratedCellStyles -> {
+              "Output" -> "ExerciseOutput"}], 
+            Cell[
+             StyleData["ExerciseInput", "Printout"], 
+             CellMargins -> {{88, 10}, {4, 7}}]}, Closed]], 
+         Cell[
+          CellGroupData[{
+            Cell[
+             StyleData[
+             "ExerciseOutput", StyleDefinitions -> StyleData["Output"]], 
+             Editable -> False, Deletable -> False, 
+             CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+             CellGroupingRules -> "OutputGrouping", ShowCellLabel -> False], 
+            Cell[
+             StyleData["ExerciseOutput", "Printout"], 
+             CellMargins -> {{88, 10}, {10, 4}}]}, Closed]], 
+         Cell[
+          StyleData["ExerciseText", StyleDefinitions -> StyleData["Text"]], 
+          FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData[
+          "ExerciseExpectedResult", StyleDefinitions -> 
+           StyleData["Subsection"]], Editable -> False, Deletable -> False, 
+          ShowCellBracket -> False, ShowGroupOpener -> False, 
+          WholeCellGroupOpener -> True, CellMargins -> {{80, 40}, {1, 14}}, 
+          CellGroupingRules -> InputGrouping, FontSize -> 12, FontWeight -> 
+          "SemiBold", FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[0.5]], 
+         Cell[
+          StyleData[
+          "ExpectedOutputNote", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Selectable -> False, Deletable -> False, 
+          FontColor -> GrayLevel[0.3]], 
+         Cell[
+          StyleData["CheckAnswerDividerCloud"], Editable -> False, Deletable -> 
+          False, ShowCellBracket -> False, CellMargins -> {{40, 40}, {3, 6}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, 
+          CellGroupingRules -> {"SectionGrouping", 40}, 
+          CellFrameMargins -> {{20, 20}, {2, 2}}, TextAlignment -> Right], 
+         Cell[
+          StyleData["BlankInput", StyleDefinitions -> StyleData["Input"]], 
+          CellFrame -> 1, 
+          CellMargins -> {{80, Inherited}, {Inherited, Inherited}}, 
+          CellFrameMargins -> {{10, 0}, {3, 3}}, CellFrameColor -> 
+          GrayLevel[0.7], CellFrameLabels -> {{None, None}, {None, None}}, 
+          ShowSyntaxStyles -> False, ShowStringCharacters -> False], 
+         Cell[
+          StyleData["CodeSectionDividerCloud"], Editable -> False, Selectable -> 
+          False, Deletable -> False, ShowCellBracket -> False, 
+          CellMargins -> {{0, 0}, {0, 30}}, 
+          CellBracketOptions -> {"OverlapContent" -> True}, 
+          CellElementSpacings -> {"CellMinHeight" -> 6}, 
+          CellGroupingRules -> {"SectionGrouping", -5}, 
+          CellFrameMargins -> {{20, 20}, {2, 2}}, DefaultNewCellStyle -> 
+          "EmptyCell", FontSize -> 6, Background -> GrayLevel[0.95]], 
+         Cell[
+          StyleData["ExpectedOutputText"], Editable -> False, Deletable -> 
+          False, FontFamily -> ("Source Sans Pro" FontSize -> 13), FontColor -> 
+          RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData["CompletedExerciseHeader"], Editable -> False, Deletable -> 
+          False, MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontColor -> GrayLevel[0.5]], 
+         Cell[
+          StyleData["SolutionTrue"], Editable -> False, Deletable -> False, 
+          MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", 
+          FontSize -> 12, FontColor -> RGBColor[0, 
+            Rational[2, 3], 0]], 
+         Cell[
+          StyleData["SolutionFalse"], Editable -> False, Deletable -> False, 
+          FontFamily -> "Source Sans Pro", FontSize -> 12, FontColor -> 
+          RGBColor[1, 0, 0]], 
+         Cell[
+          StyleData[
+          "SolutionResponse", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, ShowCellBracket -> True, 
+          CellMargins -> {{24, 25}, {6, 0}}, 
+          CellFrameMargins -> {{8, 0}, {0, 12}}, TextAlignment -> Right, 
+          ShowStringCharacters -> False, FontSize -> 12], 
+         Cell[
+          StyleData[
+          "ExerciseResponseCell", StyleDefinitions -> 
+           StyleData["Subsection"]], Editable -> False, Selectable -> False, 
+          Deletable -> False, ShowCellBracket -> False, 
+          CellMargins -> {{24, 25}, {3, 0}}, 
+          CellFrameMargins -> {{8, 0}, {0, 0}}, TextAlignment -> Right, 
+          ShowStringCharacters -> False, MenuSortingValue -> None, FontSize -> 
+          12, Background -> GrayLevel[1]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButton", StyleDefinitions -> StyleData["Text"]], 
+          Editable -> False, Deletable -> False, FontSize -> 12, FontColor -> 
+          RGBColor[0.9, 0.4, 0]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButtonTrue", StyleDefinitions -> 
+           StyleData["SolutionCheckButton"]], FontColor -> RGBColor[0, 
+            Rational[2, 3], 0]], 
+         Cell[
+          StyleData[
+          "SolutionCheckButtonFalse", StyleDefinitions -> 
+           StyleData["SolutionCheckButton"]], FontColor -> RGBColor[1, 0, 0]], 
+         Cell[
+          StyleData[
+          "ExerciseDockedCell", StyleDefinitions -> StyleData["Text"]], 
+          ShowCellBracket -> False, FontSize -> 18, FontColor -> RGBColor[
+            Rational[22, 255], 
+            Rational[8, 51], 
+            Rational[21, 85]], Background -> RGBColor[
+            Rational[244, 255], 
+            Rational[50, 51], 1]], 
+         Cell[
+          StyleData[
+          "ExerciseFirstCell", StyleDefinitions -> 
+           StyleData["ExerciseDockedCell"]], 
+          CellMargins -> {{55, 10}, {30, 6}}, FontSize -> 14, FontColor -> 
+          RGBColor[
+            Rational[64, 255], 
+            Rational[25, 51], 
+            Rational[128, 255]]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Ungraded Exercise", "Subsection"], 
+         Cell[
+          StyleData[
+          "ExerciseSubsection", StyleDefinitions -> StyleData["Subsection"]], 
+          CellMargins -> {{27, Inherited}, {5, 50}}, 
+          CellElementSpacings -> {"ClosedGroupTopMargin" -> 32}, FontSize -> 
+          15, FontWeight -> "Bold", FontColor -> RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData[
+          "ExerciseFirstSubsection", StyleDefinitions -> 
+           StyleData["ExerciseSubsection"]], 
+          CellMargins -> {{27, Inherited}, {0, 20}}], 
+         Cell[
+          StyleData[
+          "ExerciseSubsectionAdvanced", StyleDefinitions -> 
+           StyleData["ExerciseSubsection"]], CellDingbat -> "\[DiamondSuit]"], 
+         Cell[
+          StyleData[
+          "ExerciseFirstSubsectionAdvanced", StyleDefinitions -> 
+           StyleData["ExerciseFirstSubsection"]], CellDingbat -> 
+          "\[DiamondSuit]"], 
+         Cell[
+          StyleData["ExerciseSubsectionInline"], FontColor -> 
+          RGBColor[0.9, 0.4, 0.]], 
+         Cell[
+          StyleData[
+          "ExerciseSolution", StyleDefinitions -> StyleData["Subsubsection"]],
+           ShowGroupOpener -> "Inline", 
+          CellMargins -> {{70, Inherited}, {Inherited, Inherited}}, 
+          CellElementSpacings -> {"ClosedGroupTopMargin" -> 16}, FontSize -> 
+          12, FontVariations -> {"CapsType" -> "AllCaps"}, FontColor -> 
+          GrayLevel[0.6]], 
+         Cell[
+          StyleData[
+          "ExerciseCheck", StyleDefinitions -> StyleData["ExerciseSolution"]],
+           FontColor -> RGBColor[
+            Rational[37, 255], 
+            Rational[23, 51], 
+            Rational[18, 85]]], 
+         Cell[
+          StyleData["ExerciseItem", StyleDefinitions -> StyleData["Item"]], 
+          CellDingbat -> 
+          StyleBox["\[FilledSmallSquare]", Alignment -> Baseline, 
+            RGBColor[0.9, 0.4, 0.]], 
+          CellMargins -> {{83, Inherited}, {Inherited, Inherited}}, FontSize -> 
+          16, FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ExerciseItemNumbered", StyleDefinitions -> 
+           StyleData["ItemNumbered"]], 
+          CellMargins -> {{88, Inherited}, {Inherited, Inherited}}, FontColor -> 
+          GrayLevel[0]], 
+         Cell[
+          StyleData["ExercisePrompt", StyleDefinitions -> StyleData["Text"]], 
+          CellMargins -> {{27, Inherited}, {5, 1}}, LineSpacing -> {0.9, 1}, 
+          FontSize -> 18, FontWeight -> "Regular", FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData[
+          "ExerciseEquation", StyleDefinitions -> 
+           StyleData["ExercisePrompt"]], 
+          CellMargins -> {{27, Inherited}, {5, 1}}, LineSpacing -> {0.9, 1}, 
+          FontSize -> 18, FontWeight -> "SemiBold", FontColor -> 
+          GrayLevel[0]]}, Closed]]}, Open]]}, Visible -> False, 
+  FrontEndVersion -> "13.1 for Microsoft Windows (64-bit) (August 22, 2022)", 
+  StyleDefinitions -> Notebook[{
+     Cell[
+      StyleData[StyleDefinitions -> "PrivateStylesheetFormatting.nb"]]}, 
+    Visible -> False, FrontEndVersion -> 
+    "13.1 for Microsoft Windows (64-bit) (August 22, 2022)", StyleDefinitions -> 
+    "PrivateStylesheetFormatting.nb"]],
+ExpressionUUID->"9a41fa9f-203e-4ffa-8f45-6bd8920d5928"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[625, 23, 641, 17, 43, "Exercise",ExpressionUUID->"c765eb95-a6a5-482d-9dc1-e022a00140ec"],
+Cell[CellGroupData[{
+Cell[1291, 44, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"63328f50-13f7-4c29-8311-73a6e6640c8f"],
+Cell[1541, 52, 3930, 104, 70, "ExerciseOutput",ExpressionUUID->"5ee3f48a-3074-4b9b-8edf-5524d020a34a"]
+}, {1}]],
+Cell[CellGroupData[{
+Cell[5505, 161, 196, 4, 180, "Input",ExpressionUUID->"d86edf3e-f31e-4ccb-a020-bbf8c6ef8b5a"],
+Cell[5704, 167, 6244, 175, 231, "Output",ExpressionUUID->"2e762a9a-af1e-4e1e-a526-2897464892f4"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11997, 348, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"2eaa5431-742d-4e26-9619-123b3e590fd5"],
+Cell[CellGroupData[{
+Cell[12151, 354, 3873, 62, 52, "Exercise",ExpressionUUID->"e8a57c9b-4362-406e-adcc-5502c18bd562"],
+Cell[CellGroupData[{
+Cell[16049, 420, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"2522f3fc-128a-4f63-8d7b-5495d1446af3"],
+Cell[16299, 428, 27549, 652, 70, "ExerciseOutput",ExpressionUUID->"f2bc332b-ba07-49b5-9eaa-a524420d1692"]
+}, {1}]],
+Cell[43860, 1083, 151, 3, 180, "Input",ExpressionUUID->"944c9793-6e9b-4a05-b076-8c3a821df3d6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44060, 1092, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"eebb23c2-4fc7-4b65-9bba-06023ad87767"],
+Cell[CellGroupData[{
+Cell[44214, 1098, 3887, 62, 52, "Exercise",ExpressionUUID->"6ab7f86b-51f7-4062-a75b-8fde53edcf19"],
+Cell[CellGroupData[{
+Cell[48126, 1164, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"9d30449a-b660-47a7-bf0e-fa443e7c281a"],
+Cell[48376, 1172, 10432, 270, 70, "ExerciseOutput",ExpressionUUID->"6d296518-1605-42f2-9df1-72dae866df2f"]
+}, {1}]],
+Cell[58820, 1445, 186, 4, 180, "Input",ExpressionUUID->"340f5993-e8a7-4e21-adf2-a4655ad20298"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59055, 1455, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"95e981b6-6d5f-4441-bb28-6e0a497b5f41"],
+Cell[CellGroupData[{
+Cell[59209, 1461, 452, 9, 43, "Exercise",ExpressionUUID->"0fa8e660-22b3-45cf-9513-336671da800a"],
+Cell[CellGroupData[{
+Cell[59686, 1474, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"72351ce9-326d-46f9-828e-cd988737ee51"],
+Cell[59936, 1482, 333, 12, 70, "ExerciseOutput",ExpressionUUID->"fc73877c-bfd5-476c-a7bd-66f2749eabb2"]
+}, {1}]],
+Cell[60281, 1497, 148, 3, 180, "Input",ExpressionUUID->"5f002ce3-d047-4c33-ae98-d6704c5240e8"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60478, 1506, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"b5797cf2-2e42-4348-a766-b6d3fc77c870"],
+Cell[CellGroupData[{
+Cell[60632, 1512, 662, 17, 43, "Exercise",ExpressionUUID->"816dc8a7-af94-418c-81b7-98f83fdc868c"],
+Cell[CellGroupData[{
+Cell[61319, 1533, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"1193c498-2732-4af4-bd7a-7950bd953351"],
+Cell[61569, 1541, 1044, 23, 44, "ExerciseOutput",ExpressionUUID->"40e9f33d-0985-4735-85aa-f4ee100b8861"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62650, 1569, 204, 4, 180, "Input",ExpressionUUID->"64a95a01-7ea0-40ee-864d-0f81d7be7104"],
+Cell[62857, 1575, 1274, 37, 236, "Output",ExpressionUUID->"39081226-7174-4faa-9f3c-ae6e87d4f359"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[64192, 1619, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"ed4bdb73-d661-47c5-9c04-430f21447515"],
+Cell[CellGroupData[{
+Cell[64346, 1625, 474, 10, 43, "Exercise",ExpressionUUID->"e346c5f1-7ec1-40e4-9b41-da55fac94381"],
+Cell[CellGroupData[{
+Cell[64845, 1639, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"d44fc3fc-0164-4a7b-8d48-d5dbb15cbb9b"],
+Cell[65095, 1647, 27314, 644, 70, "ExerciseOutput",ExpressionUUID->"c51c71e8-c3fa-44ea-8a96-9dc7e4185525"]
+}, {1}]],
+Cell[92421, 2294, 254, 6, 180, "Input",ExpressionUUID->"756e73f7-02a7-4f73-ae49-d3d72c7e788f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[92724, 2306, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"7ed1054a-9a38-449b-9aa7-9884585eda9c"],
+Cell[CellGroupData[{
+Cell[92878, 2312, 3903, 64, 52, "Exercise",ExpressionUUID->"d2e098fa-4aac-4454-93f9-1ee008a7a6f8"],
+Cell[CellGroupData[{
+Cell[96806, 2380, 247, 6, 30, "ExerciseExpectedResult",ExpressionUUID->"84e6bf4d-78c5-40b5-9a8b-d69674fea195"],
+Cell[97056, 2388, 18781, 422, 70, "ExerciseOutput",ExpressionUUID->"be018b42-d5c5-4400-ab9e-165f11b10eb4"]
+}, {1}]],
+Cell[115849, 2813, 524, 17, 33, "BlankInput",ExpressionUUID->"a621ff65-c20b-4e1a-a61c-3250d9780d09"]
+}, Open  ]]
+}, Open  ]],
+Cell[116400, 2834, 129, 2, 43, "CodeSectionDividerCloud",ExpressionUUID->"c450caa8-a232-4279-8871-953cfca42530"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
